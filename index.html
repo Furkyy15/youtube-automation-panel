@@ -1,0 +1,759 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b0f17"><title>YouTube Otomasyon Paneli</title><link rel="manifest" href="/manifest.json"><style>
+:root{--bg:#090d14;--card:#111824;--soft:#182231;--border:#273449;--text:#f6f8fb;--muted:#97a5b8;--accent:#ff7a00;--ok:#37c991}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:980px;margin:auto;padding:20px 14px 60px}.hero h1{font-size:28px;margin:5px 0}.hero p{color:var(--muted);line-height:1.5;margin:0 0 18px}.pill{display:inline-block;background:#251a0f;color:#ffae66;padding:6px 10px;border-radius:999px;font-size:12px}.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:16px;margin:12px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.full{grid-column:1/-1}@media(max-width:720px){.grid{grid-template-columns:1fr}}label{display:block;font-size:13px;color:#dbe3ef;margin:3px 0 7px}input,select,textarea{width:100%;border:1px solid #2c3a50;background:var(--soft);color:var(--text);border-radius:12px;padding:12px;font-size:16px;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--accent)}textarea{min-height:95px}.section{border:1px solid #36455d;background:#0e1520;border-radius:16px;padding:16px}.sectionTitle{font-size:18px;font-weight:850;margin-bottom:4px}.small{font-size:12px;color:var(--muted)}.search{position:relative;margin-top:12px}.search input{height:50px;padding-left:42px}.ico{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#a9b4c4}.suggest{position:absolute;z-index:30;left:0;right:0;top:54px;background:#101824;border:1px solid #334159;border-radius:12px;overflow:hidden;box-shadow:0 12px 30px #0008;display:none}.srow{padding:11px 12px;border-bottom:1px solid #202b3c;cursor:pointer}.srow:hover{background:#182334}.sname{font-weight:750}.ssci{font-size:12px;color:var(--muted);font-style:italic;margin-top:2px}.status{margin-top:12px;padding:12px;border:1px solid #2d3a4f;border-radius:12px;background:#121a27;color:#cbd5e2}.status.ok{border-color:#2e6d55;background:#102019}.status.err{border-color:#773e43;background:#241316;color:#ffd2d2}.chips{display:flex;gap:7px;overflow-x:auto;padding:12px 0 8px;scrollbar-width:none}.chip{width:auto;flex:0 0 auto;padding:8px 11px;border-radius:999px;border:1px solid #2b3950;background:#182235;color:#ced7e5;font-size:13px;font-weight:750}.chip.active{background:var(--accent);border-color:var(--accent);color:#111}.list{height:340px;overflow:auto;border:1px solid var(--border);border-radius:13px;background:#0a111a;margin-top:9px}.row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px;border-bottom:1px solid #1d2938;cursor:pointer}.row:hover{background:#172131}.row.selected{background:#12251e;border-left:3px solid var(--ok)}.rname{font-weight:760}.rmeta{font-size:12px;color:var(--muted);margin-top:3px}.score{font-size:12px;color:#ffb06b;white-space:nowrap}.disabled{opacity:.45;pointer-events:none}.count{float:right;color:#ffbd82;background:#251a0f;padding:5px 8px;border-radius:999px;font-size:12px}button.primary{width:100%;border:0;border-radius:14px;padding:14px;font-weight:850;font-size:16px;background:var(--accent);color:#111}.out{white-space:pre-wrap;line-height:1.55;background:#0c131d;border-radius:14px;padding:15px;min-height:120px}
+
+.infoActions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.infoBtn{width:auto;border:1px solid #35465f;background:#1a2638;color:#fff;border-radius:12px;padding:10px 13px;font-weight:800;cursor:pointer}
+.infoBtn.primaryInfo{background:#1d5d48;border-color:#2e8c6a}
+.factGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+@media(max-width:680px){.factGrid{grid-template-columns:1fr}}
+.factCard{background:#0c141f;border:1px solid #26354a;border-radius:12px;padding:10px}
+.factKey{font-size:11px;color:#96a6ba;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.factVal{font-size:14px;line-height:1.4;color:#eef3fa}
+.infoSub{font-weight:850;margin:14px 0 6px}
+.sourceRow{padding:9px 10px;border-bottom:1px solid #202d3e;font-size:13px}
+.sourceRow:last-child{border-bottom:0}
+.caution{background:#261e10;border:1px solid #725526;color:#ffd9a3;border-radius:10px;padding:9px;margin-top:7px;font-size:12px}
+
+
+.visualModeBtns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.visualModeBtn{width:auto;flex:0 0 auto;padding:10px 12px;border-radius:12px;border:1px solid #2b3950;background:#182235;color:#ced7e5;font-size:13px;font-weight:800;cursor:pointer}
+.visualModeBtn.active{background:#ff7a00;border-color:#ff7a00;color:#111}
+
+.compareBox{margin-top:12px;padding:12px;border:1px solid #2a3a50;border-radius:14px;background:#0e1521}.hidden{display:none!important}.compareSearchWrap{position:relative}.setupGrid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}.keyField{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.setupRow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.setupBadge{display:inline-block;padding:4px 8px;border-radius:999px;border:1px solid #3a4a62;font-size:12px}.setupBadge.ok{background:#102019;border-color:#2e6d55}.setupBadge.missing{background:#241316;border-color:#773e43;color:#ffd2d2}
+.workspaceNav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.workspaceBtn{width:auto;flex:0 0 auto;padding:10px 12px;border-radius:12px;border:1px solid #2b3950;background:#182235;color:#ced7e5;font-size:13px;font-weight:800;cursor:pointer}
+.workspaceBtn.active{background:#ff7a00;border-color:#ff7a00;color:#111}
+.workspacePanel{display:none}
+.workspacePanel.active{display:block}
+.workspaceScroll{max-height:420px;overflow:auto;border:1px solid #26354a;border-radius:14px;background:#0c131d;padding:14px}
+.outputPane{white-space:pre-wrap;line-height:1.55;min-height:220px}
+.compactNote{font-size:12px;color:#97a5b8;margin-top:6px}
+
+.workspaceActions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.actionBtn{width:auto;flex:0 0 auto;padding:9px 11px;border-radius:10px;border:1px solid #33445d;background:#172235;color:#eaf0f8;font-size:12px;font-weight:800;cursor:pointer}
+.actionBtn:hover{background:#21314a}
+.actionBtn.primaryAction{background:#1f5e48;border-color:#2f8a69}
+.actionMsg{font-size:12px;color:#9fb0c5;margin-top:5px;min-height:16px}
+
+.mediaToolBox{border:1px solid #2a3a50;border-radius:14px;padding:12px;background:#0f1622;margin-bottom:12px}
+.mediaControls{display:flex;gap:10px;flex-wrap:wrap;align-items:end}
+.mediaControls > div{min-width:180px}
+.mediaStatus{margin-top:10px}
+.mediaGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.mediaCard{border:1px solid #29384d;border-radius:14px;background:#111925;overflow:hidden}
+.mediaCard .thumb{display:block;width:100%;height:160px;object-fit:cover;background:#0b1017}
+.mediaCard video.thumb{height:160px}
+.mediaMeta{padding:10px;font-size:12px;line-height:1.45}
+.mediaMeta .ttl{font-weight:800;color:#fff;margin-bottom:6px}
+.mediaMeta .mini{color:#a8b7c8}
+.layerBlock{margin-top:14px;padding-top:6px;border-top:1px solid #223146}
+.layerTitle{font-weight:800;margin-bottom:4px}
+.badgeMini{display:inline-block;padding:2px 6px;border-radius:999px;background:#20334d;border:1px solid #385175;font-size:11px;margin-right:4px}
+
+
+
+</style></head><body><div class="wrap"><div class="hero"><span class="pill">Kişisel YouTube Üretim Sistemi</span><h1>Video Otomasyon Paneli</h1><p>Önce hayvanı yaz. Sistem taksonu doğrular ve yalnızca doğal yaşamına uyan mekanları açar.</p></div>
+<div id="setupCard" class="card">
+  <div class="sectionTitle">🔐 API Kurulumu</div>
+  <div class="small">Anahtarları kod dosyasına girmen gerekmez. Eksik olan anahtarı buraya bir kez yapıştırıp kaydet. Kaydedilen anahtar tekrar ekranda gösterilmez.</div>
+  <div id="setupStatus" class="status">Kurulum durumu kontrol ediliyor...</div>
+  <div id="setupForm" class="setupGrid">
+    <div><label>Takma ad</label><input id="setupAlias" autocomplete="off" placeholder="Örn: furkan-ana"></div>
+    <div><label>OpenAI API anahtarı</label><input id="setupOpenAI" class="keyField" type="password" autocomplete="off" placeholder="sk-proj-..."></div>
+    <div><label>Pexels API anahtarı</label><input id="setupPexels" class="keyField" type="password" autocomplete="off" placeholder="İsteğe bağlı"></div>
+    <div><label>Pixabay API anahtarı</label><input id="setupPixabay" class="keyField" type="password" autocomplete="off" placeholder="İsteğe bağlı"></div>
+    <div class="setupRow">
+      <button type="button" class="actionBtn primaryAction" id="saveProfile">Takma Adla Profili Kaydet</button>
+      <span class="small">Anahtarlar sunucu tarafında saklanır; takma ad üzerinden tekrar etkinleştirilir.</span>
+    </div>
+    <div><label>Kayıtlı profil</label><select id="profileSelect"><option value="">Kayıtlı profil yok</option></select></div>
+    <div class="setupRow"><button type="button" class="actionBtn" id="activateProfile">Seçili Profili Etkinleştir</button></div>
+  </div>
+</div>
+<div class="card"><div class="grid"><div><label>Video uzunluğu</label><select id="videoType"><option>Shorts</option><option>Uzun Video</option></select></div>
+<div><label>Süre</label><input id="duration" placeholder="Örn: 25 saniye / 8 dakika"></div>
+<div class="full section">
+  <div class="sectionTitle">🎬 Video Türü / Formatı</div>
+  <div class="small">Videonun anlatım şeklini seç. Format seçildiğinde arka plandaki özel prompt kuralları otomatik uygulanır.</div>
+  <div id="videoFormatChips" class="chips"></div>
+  
+<div id="videoFormatStatus" class="status">Henüz format seçilmedi.</div>
+</div>
+<div class="full section">
+  <div class="sectionTitle">🖼️ Görsel İçerik</div>
+  <div class="small">Uzun videoda yalnızca gerçek telifsiz medya planı kullanılır. Shorts için gerçek medya veya yapay zeka modu seçebilirsin.</div>
+  <div id="visualModeLongInfo" class="status">Varsayılan mod: Shorts için seçim yapılacak.</div>
+  <div id="shortsVisualOptions" class="visualModeBtns">
+    <button type="button" class="visualModeBtn active" data-vm="real">Gerçek fotoğraf + video</button>
+    <button type="button" class="visualModeBtn" data-vm="ai">Yapay zeka fotoğraf + video</button>
+  </div>
+  <div id="visualModeStatus" class="status">Shorts için varsayılan mod: <b>Gerçek fotoğraf + video</b></div>
+  <div id="visualPriorityInfo" class="status">Sistem en güçlü, en dikkat çekici ve tekrar etmeyen sahneleri üst sıraya koyar.</div>
+</div><div class="full"><label>Video konusu</label><input id="topic" placeholder="Örn: Jaguar neden bu kadar güçlü?"></div>
+
+<div class="full section">
+  <div class="sectionTitle">🧭 Hayvan Alemi</div>
+  <div class="small">Bir grup seç. İlk sırada içerik açısından en dikkat çekici canlılar ve potansiyel etiketleri gösterilir.</div>
+  <div id="animalGroupChips" class="chips"></div>
+  <div id="groupPanel" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin:8px 0">
+      <b id="groupTitle"></b><span id="groupCount" class="count">0</span>
+    </div>
+    <input id="groupSearch" placeholder="Bu gruptaki canlılarda ara...">
+    <div id="groupList" class="list" style="height:300px"></div>
+    <div class="small" style="margin-top:8px">Üst sıra küratörlü içerik önceliğidir; arama sonuçları taksonomi verisinden gelir.</div>
+  </div>
+</div>
+<div class="full section"><div class="sectionTitle">🐾 Hayvan Seçimi</div><div class="small">Türkçe, İngilizce veya bilimsel ad yazabilirsin.</div><div class="search"><span class="ico">⌕</span><input id="animalSearch" autocomplete="off" placeholder="Jaguar, kutup ayısı, Carcharodon carcharias..."><div id="suggest" class="suggest"></div></div><div id="animalStatus" class="status">Henüz hayvan seçilmedi.</div></div>
+<div id="compareSection" class="full section hidden"><div class="sectionTitle">🆚 Karşı Taraf</div><div id="compareHelp" class="small">Karşılaştırma formatlarında ikinci taraf burada ayarlanır.</div><div class="compareBox"><div id="compareModeStatus" class="status">Henüz karşılaştırma formatı seçilmedi.</div><div id="opponentAnimalArea" class="hidden"><label>Karşı taraf hayvanı</label><div class="search compareSearchWrap"><span class="ico">⌕</span><input id="opponentSearch" autocomplete="off" placeholder="Örn: antilop, zebra, kutup ayısı..."><div id="opponentSuggest" class="suggest"></div></div><div id="opponentStatus" class="status">Karşı taraf hayvanı henüz seçilmedi.</div></div><div id="humanCompareArea" class="hidden"><div class="status ok">Bu formatta karşı taraf otomatik olarak <b>insan</b> kabul edilir. Görseller insan + hayvan kıyası mantığıyla hazırlanır.</div></div><div id="vsTemplateArea" class="hidden" style="margin-top:12px"><label>VS hazır paketi</label><div id="vsTemplateChips" class="chips"></div><div id="vsTemplateStatus" class="status">Henüz VS şablonu seçilmedi.</div></div></div></div>
+
+<div id="ideaPanel" class="full section disabled">
+  <div class="sectionTitle">💡 Hayvan İçerik Potansiyeli</div>
+  <div id="ideaStatus" class="status">Hayvan doğrulandıktan sonra içerik potansiyeli ve 5 viral konu burada gösterilecek.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin:10px 0">
+    <button type="button" id="ideaBtn" class="chip" style="padding:10px 14px;border:none;background:#1f2b3d;color:#fff">🔥 5 Viral Konu Getir</button>
+    <div id="tierBadge" class="status" style="margin:0;padding:10px 12px">Henüz skor yok</div>
+  </div>
+  <div id="ideaList" class="list"></div>
+</div>
+
+
+<div id="animalInfoPanel" class="full section disabled">
+  <div class="sectionTitle">📚 Hayvan Bilgi Merkezi</div>
+  <div class="small">Hayvanı doğruladıktan sonra kısa özet veya ayrıntılı araştırma seç.</div>
+  <div class="infoActions">
+    <button type="button" id="shortInfoBtn" class="infoBtn primaryInfo">Kısa Özet</button>
+    <button type="button" id="detailedInfoBtn" class="infoBtn">Detaylı Bilgi</button>
+  </div>
+  <div id="animalInfoStatus" class="status">Hayvan seçildikten sonra bilgi alınabilir.</div>
+  <div id="animalInfoContent"></div>
+</div>
+
+<div id="locationSection" class="full section disabled"><div class="sectionTitle">🌍 Uyumlu Mekanlar <span id="count" class="count">0</span></div><div class="small">Yalnızca seçilen hayvanın doğal habitatıyla uyumlu mekanlar.</div><div id="chips" class="chips"></div><input id="locationSearch" placeholder="Uyumlu mekanlarda ara..."><div id="list" class="list"></div><div id="locationStatus" class="status">Hayvan seçildikten sonra mekanlar açılacak.</div></div>
+<div><label>Video hedefi</label><input id="goal" placeholder="Merak + yüksek izlenme süresi"></div><div><label>Anlatım tonu</label><select id="tone"><option>Merak uyandırıcı ve sert</option><option>Belgesel</option><option>Gerilimli</option><option>Eğlenceli</option><option>Sinematik</option></select></div><div><label>Görsel stili</label><select id="visualStyle"><option>Fotogerçekçi</option><option>Sinematik fotogerçekçi</option><option>Belgesel gerçekçiliği</option><option>3D gerçekçi</option></select></div><div><label>Sahne sayısı</label><input id="sceneCount" placeholder="Örn: 8"></div><div><label>Hedef kitle</label><input id="audience" value="25-44 yaş"></div><div class="full"><label>Ek komutlar</label><textarea id="extra" placeholder="İlk 2 saniye çok güçlü olsun..."></textarea></div></div></div>
+<div class="card"><button id="generate" class="primary">Videoyu Hazırla</button></div><div class="card"><label>🚀 Otomatik tıklatma paketi</label><div class="small">Her üretimde otomatik olarak <b>3 başlık alternatifi</b>, <b>3 thumbnail / kapak hook önerisi</b> ve <b>ilk 3 saniye planı</b> hazırlanır.</div></div><div id="workspaceHost" class="card"><label>📂 Çalışma Sekmeleri</label><div class="small">Bilgi, görsel, video ve tıklatma çıktıları ayrı sekmelerde gösterilir. Böylece uzun çıktı ekranı gereksiz aşağı uzatmaz.</div><div id="workspaceRoot" style="margin-top:12px"></div><div id="output" class="hidden">Henüz üretim yapılmadı.</div></div></div>
+<script>
+const $=id=>document.getElementById(id);let timer=null,animalToken="",compatible=[],selectedLoc=null,activeCat="Tümü",videoFormatId="",visualMediaMode="real",opponentAnimalToken="",vsTemplateId="",lastRealMediaBundle=null;
+
+async function refreshSetupStatus(){
+  const box=$("setupStatus");
+  try{
+    const r=await fetch("/api/setup/status");
+    const j=await r.json();
+    const badge=(ok,label)=>`<span class="setupBadge ${ok?"ok":"missing"}">${ok?"✓":"✕"} ${label}</span>`;
+    box.className="status "+(j.openai_configured?"ok":"");
+    box.innerHTML=[badge(j.openai_configured,"OpenAI"),badge(j.pexels_configured,"Pexels"),badge(j.pixabay_configured,"Pixabay")].join(" ") + (j.active_alias?`<br><span class="small">Aktif takma ad: <b>${j.active_alias}</b></span>`:"");
+    $("setupOpenAI").disabled=!!j.openai_configured;
+    $("setupPexels").disabled=!!j.pexels_configured;
+    $("setupPixabay").disabled=!!j.pixabay_configured;
+    $("setupOpenAI").placeholder=j.openai_configured?"Kaydedildi":"sk-proj-...";
+    $("setupPexels").placeholder=j.pexels_configured?"Kaydedildi":"İsteğe bağlı";
+    $("setupPixabay").placeholder=j.pixabay_configured?"Kaydedildi":"İsteğe bağlı";
+    if(j.setup_locked){
+      $("saveApiKeys").disabled=true;
+      $("saveApiKeys").textContent="Tüm anahtarlar kayıtlı";
+    }
+  }catch(e){
+    box.className="status err";
+    box.textContent="Kurulum durumu alınamadı: "+e.message;
+  }
+}
+
+async function refreshProfiles(){
+  try{
+    const r=await fetch('/api/setup/profiles');
+    const j=await r.json();
+    const sel=$("profileSelect");
+    const items=j.profiles||[];
+    sel.innerHTML=items.length?items.map(p=>`<option value="${p.alias}" ${p.active?'selected':''}>${p.alias}${p.active?' (aktif)':''}</option>`).join(''):'<option value="">Kayıtlı profil yok</option>';
+  }catch{}
+}
+async function saveAliasProfile(){
+  const alias=$("setupAlias").value.trim();
+  const openai=$("setupOpenAI").value.trim();
+  const pexels=$("setupPexels").value.trim();
+  const pixabay=$("setupPixabay").value.trim();
+  const box=$("setupStatus"),b=$("saveProfile");
+  if(!alias||!openai){box.className='status err';box.textContent='Takma ad ve OpenAI anahtarı gerekli.';return}
+  b.disabled=true;b.textContent='Kaydediliyor...';
+  try{
+    const r=await fetch('/api/setup/profile',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({alias,openai,pexels,pixabay})});
+    const j=await r.json();
+    if(!r.ok){box.className='status err';box.textContent=j.error||'Profil kaydedilemedi.';return}
+    $("setupOpenAI").value='';$("setupPexels").value='';$("setupPixabay").value='';
+    await refreshSetupStatus(); await refreshProfiles(); if(typeof loadProviderStatus==='function') loadProviderStatus();
+    box.className='status ok';box.textContent=`✓ ${j.alias} profili kaydedildi ve etkin.`;
+  }catch(e){box.className='status err';box.textContent='Bağlantı hatası: '+e.message}
+  finally{b.disabled=false;b.textContent='Takma Adla Profili Kaydet'}
+}
+async function activateAliasProfile(){
+  const alias=$("profileSelect").value;
+  const box=$("setupStatus");
+  if(!alias){box.className='status err';box.textContent='Önce kayıtlı profil seç.';return}
+  try{
+    const r=await fetch('/api/setup/activate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({alias})});
+    const j=await r.json();
+    if(!r.ok){box.className='status err';box.textContent=j.error||'Profil etkinleştirilemedi.';return}
+    await refreshSetupStatus();await refreshProfiles();if(typeof loadProviderStatus==='function')loadProviderStatus();
+    box.className='status ok';box.textContent=`✓ ${j.alias} profili etkin.`;
+  }catch(e){box.className='status err';box.textContent='Bağlantı hatası: '+e.message}
+}
+$("saveProfile")?.addEventListener('click',saveAliasProfile);
+$("activateProfile")?.addEventListener('click',activateAliasProfile);
+refreshProfiles();
+
+async function saveApiKeys(){
+  const b=$("saveApiKeys"), box=$("setupStatus");
+  const payload={
+    openai:$("setupOpenAI").value.trim(),
+    pexels:$("setupPexels").value.trim(),
+    pixabay:$("setupPixabay").value.trim()
+  };
+  if(!payload.openai && !payload.pexels && !payload.pixabay){
+    box.className="status err"; box.textContent="En az bir eksik anahtar yapıştır."; return;
+  }
+  b.disabled=true; b.textContent="Kaydediliyor...";
+  try{
+    const r=await fetch("/api/setup/keys",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+    const j=await r.json();
+    if(!r.ok){box.className="status err"; box.textContent=j.error||"Kaydedilemedi."; return}
+    $("setupOpenAI").value=""; $("setupPexels").value=""; $("setupPixabay").value="";
+    await refreshSetupStatus();
+    if(typeof loadProviderStatus==="function") loadProviderStatus();
+  }catch(e){
+    box.className="status err"; box.textContent="Bağlantı hatası: "+e.message;
+  }finally{
+    if(!$("saveApiKeys").disabled){b.disabled=false;b.textContent="Eksik Anahtarları Kaydet"}
+  }
+}
+$("saveApiKeys")?.addEventListener("click",saveApiKeys);
+refreshSetupStatus();
+
+function buildWorkspace(){
+  const root=$("workspaceRoot");
+  if(!root) return;
+  root.innerHTML=`
+    <div class="workspaceNav">
+      <button type="button" class="workspaceBtn active" data-wtab="info">📚 Bilgi</button>
+      <button type="button" class="workspaceBtn" data-wtab="visual">🖼️ Görseller</button>
+      <button type="button" class="workspaceBtn" data-wtab="video">🎬 Video</button>
+      <button type="button" class="workspaceBtn" data-wtab="click">🚀 Tıklatma</button>
+      <button type="button" class="workspaceBtn" data-wtab="full">🧾 Tam Çıktı</button>
+    </div>
+    <div id="wpanel-info" class="workspacePanel active"></div>
+    <div id="wpanel-visual" class="workspacePanel">
+      <div class="mediaToolBox">
+        <div><b>🎞️ Gerçek medya çekim katmanı</b></div>
+        <div class="small">Bu alan gerçek fotoğraf ve video sonuçlarını canlı olarak çeker. Wikimedia ve Openverse anahtarsız çalışır; Pexels ve Pixabay anahtarları yalnızca medya havuzunu büyütür.</div>
+        <div class="mediaControls" style="margin-top:10px">
+          <div><label>Medya türü</label><select id="realMediaKind"><option value="both">Fotoğraf + Video</option><option value="image">Yalnız fotoğraf</option><option value="video">Yalnız video</option></select></div>
+          <div><button type="button" class="actionBtn primaryAction" id="fetchRealMedia">Gerçek Medyayı Çek</button></div>
+          <div><button type="button" class="actionBtn" id="downloadRealMediaJson">Gerçek Medya JSON İndir</button></div>
+        </div>
+        <div id="providerStatus" class="status mediaStatus">Sağlayıcı durumları yükleniyor...</div>
+        <div id="realMediaStatus" class="status mediaStatus">Henüz gerçek medya çekilmedi.</div>
+      </div>
+      <div class="mediaToolBox">
+        <div><b>📚 Ücretsiz Medya Kütüphanesi</b></div>
+        <div class="small">Ücretsiz API kütüphanelerinde sayfa sayfa arama yap. Toplu indirme yerine sağlayıcı kurallarına uygun gezinme kullanılır.</div>
+        <div class="mediaControls" style="margin-top:10px">
+          <div><label>Sağlayıcı</label><select id="libraryProvider"><option value="wikimedia">Wikimedia Commons — anahtarsız</option><option value="openverse">Openverse — anahtarsız</option><option value="pexels">Pexels</option><option value="pixabay">Pixabay</option></select></div>
+          <div><label>Tür</label><select id="libraryKind"><option value="image">Fotoğraf</option><option value="video">Video</option></select></div>
+          <div><label>Arama</label><input id="libraryQuery" placeholder="Örn: jaguar wildlife"></div>
+          <div><button type="button" class="actionBtn primaryAction" id="librarySearchBtn">Kütüphanede Ara</button></div><div class="small">Wikimedia: fotoğraf + uygun video · Openverse: açık lisanslı fotoğraf · Pexels/Pixabay: anahtar varsa ek kaynak</div>
+        </div>
+        <div id="libraryStatus" class="status mediaStatus">Henüz arama yapılmadı.</div>
+        <div id="libraryPager" class="workspaceActions"></div>
+        <div id="libraryResults"></div>
+      </div>
+      <div class="workspaceActions">
+        <button type="button" class="actionBtn primaryAction" data-copy-target="visualOutput">Kopyala</button>
+        <button type="button" class="actionBtn" data-download-target="visualOutput" data-kind="gorseller">TXT İndir</button>
+      </div>
+      <div class="workspaceScroll"><div id="visualOutput" class="outputPane">Görsel çıktılar burada görünecek.</div></div>
+      <div id="msg-visualOutput" class="actionMsg"></div><div id="realMediaResults"></div>
+      <div class="compactNote">AI image/video promptları, gerçek medya paketleri ve görsel sahne planları bu sekmede toplanır.</div>
+    </div>
+    <div id="wpanel-video" class="workspacePanel">
+      <div class="workspaceActions">
+        <button type="button" class="actionBtn primaryAction" data-copy-target="videoOutput">Kopyala</button>
+        <button type="button" class="actionBtn" data-download-target="videoOutput" data-kind="video">TXT İndir</button>
+      </div>
+      <div class="workspaceScroll"><div id="videoOutput" class="outputPane">Video özeti, hook, sahne akışı ve seslendirme burada görünecek.</div></div>
+      <div id="msg-videoOutput" class="actionMsg"></div>
+      <div class="compactNote">Video akışı, hook, zaman kodlu sahne planı, seslendirme, kurgu ve CTA bu sekmede gösterilir.</div>
+    </div>
+    <div id="wpanel-click" class="workspacePanel">
+      <div class="workspaceActions">
+        <button type="button" class="actionBtn primaryAction" data-copy-target="clickOutput">Kopyala</button>
+        <button type="button" class="actionBtn" data-download-target="clickOutput" data-kind="tiklatma">TXT İndir</button>
+      </div>
+      <div class="workspaceScroll"><div id="clickOutput" class="outputPane">Başlıklar, thumbnail hookları ve ilk 3 saniye planı burada görünecek.</div></div>
+      <div id="msg-clickOutput" class="actionMsg"></div>
+      <div class="compactNote">Başlık, açıklama, etiketler, kapak fikirleri ve ilk 3 saniye planı burada toplanır.</div>
+    </div>
+    <div id="wpanel-full" class="workspacePanel">
+      <div class="workspaceActions">
+        <button type="button" class="actionBtn primaryAction" data-copy-target="fullOutput">Tamamını Kopyala</button>
+        <button type="button" class="actionBtn" data-download-target="fullOutput" data-kind="tam-paket">TXT İndir</button>
+        <button type="button" class="actionBtn" id="downloadJsonBundle">JSON Paket İndir</button>
+      </div>
+      <div class="workspaceScroll"><div id="fullOutput" class="outputPane">Henüz üretim yapılmadı.</div></div>
+      <div id="msg-fullOutput" class="actionMsg"></div>
+      <div class="compactNote">Tüm çıktıyı tek yerde görebilir veya JSON paket olarak indirebilirsin.</div>
+    </div>
+  `;
+  root.querySelectorAll("[data-wtab]").forEach(btn=>btn.onclick=()=>{
+    const tab=btn.dataset.wtab;
+    root.querySelectorAll("[data-wtab]").forEach(x=>x.classList.toggle("active",x.dataset.wtab===tab));
+    root.querySelectorAll(".workspacePanel").forEach(p=>p.classList.toggle("active",p.id==="wpanel-"+tab));
+  });
+  const infoPanel=root.querySelector("#wpanel-info");
+  const idea=$("ideaPanel");
+  const animalInfo=$("animalInfoPanel");
+  if(infoPanel){
+    const infoActions=document.createElement("div");
+    infoActions.className="workspaceActions";
+    infoActions.innerHTML=`
+      <button type="button" class="actionBtn primaryAction" id="copyInfoTab">Bilgiyi Kopyala</button>
+      <button type="button" class="actionBtn" id="downloadInfoTab">Bilgi TXT İndir</button>
+      <div id="msg-infoTab" class="actionMsg"></div>`;
+    infoPanel.appendChild(infoActions);
+  }
+  if(infoPanel && idea) infoPanel.appendChild(idea);
+  if(infoPanel && animalInfo) infoPanel.appendChild(animalInfo);
+  bindWorkspaceActions();
+}
+function setWorkspaceTab(tab){
+  const root=$("workspaceRoot");
+  if(!root) return;
+  root.querySelectorAll("[data-wtab]").forEach(x=>x.classList.toggle("active",x.dataset.wtab===tab));
+  root.querySelectorAll(".workspacePanel").forEach(p=>p.classList.toggle("active",p.id==="wpanel-"+tab));
+}
+
+
+function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function compareTypeForRequest(){
+  if(videoFormatId==='comparison') return 'animal_vs_animal';
+  if(videoFormatId==='human_vs_animal') return 'human_vs_animal';
+  return 'single';
+}
+function renderProviderStatus(bundle){
+  const ps=bundle?.providers || bundle?.provider_status;
+  if(!ps){$("providerStatus").className='status'; $("providerStatus").textContent='Sağlayıcı bilgisi yok.'; return;}
+  const rows=Object.entries(ps).map(([k,v])=>`${k}: <b>${v.enabled?'aktif':'pasif'}</b>${v.env?` <span class="small">(${v.env})</span>`:''}`).join(' · ');
+  $("providerStatus").className='status ok';
+  $("providerStatus").innerHTML=rows;
+}
+function renderRealMediaResults(bundle){
+  lastRealMediaBundle=bundle || null;
+  const host=$("realMediaResults");
+  if(!host) return;
+  if(!bundle || !bundle.layers){host.innerHTML=''; return;}
+  renderProviderStatus(bundle);
+  host.innerHTML = bundle.layers.map(layer=>{
+    const queries=(layer.queries||[]).map(q=>`<span class="badgeMini">${escapeHtml(q)}</span>`).join('');
+    const cards=(layer.results||[]).map(item=>`<div class="mediaCard">
+      ${item.kind==='video' ? `<video class="thumb" src="${escapeHtml(item.preview_url||item.asset_url||'')}" muted playsinline preload="metadata" controls></video>` : `<img class="thumb" src="${escapeHtml(item.preview_url||item.asset_url||'')}" alt="${escapeHtml(item.title||'media')}">`}
+      <div class="mediaMeta">
+        <div class="ttl">${escapeHtml(item.title||layer.label)}</div>
+        <div class="mini">${escapeHtml(item.provider||'')} · ${escapeHtml(item.kind||'')} · skor ${escapeHtml(item.score||0)}</div>
+        <div class="mini">Lisans: ${escapeHtml(item.license||'-')}</div>${item.attribution?`<div class="mini">${escapeHtml(item.attribution)}</div>`:""}
+        ${item.creator?`<div class="mini">Üreten: ${escapeHtml(item.creator)}</div>`:''}
+        <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap"><a class="actionBtn" style="text-decoration:none" href="${escapeHtml(item.page_url||item.asset_url||'#')}" target="_blank" rel="noopener">Kaynağı Aç</a>${item.asset_url?`<a class="actionBtn" style="text-decoration:none" href="${escapeHtml(item.asset_url)}" target="_blank" rel="noopener">Dosyayı Aç</a>`:''}</div>
+      </div>
+    </div>`).join('');
+    return `<div class="layerBlock"><div class="layerTitle">${escapeHtml(layer.label)} <span class="small">(${escapeHtml(layer.kind)})</span></div><div class="small">${escapeHtml(layer.action||'')}</div><div style="margin:8px 0">${queries}</div>${cards?`<div class="mediaGrid">${cards}</div>`:'<div class="status">Bu katmanda sonuç bulunamadı.</div>'}</div>`;
+  }).join('');
+}
+
+let libraryPage=1;
+function renderLibraryResults(j){
+  const host=$("libraryResults"), pager=$("libraryPager"), status=$("libraryStatus");
+  const items=j.items||[];
+  status.className='status ok';
+  status.innerHTML=`${escapeHtml(j.provider)} · ${escapeHtml(j.kind)} · ${escapeHtml(j.query)} · ${items.length} sonuç gösteriliyor / erişilebilir ${escapeHtml(j.total_results||0)}`;
+  host.innerHTML=items.length?`<div class="mediaGrid">${items.map(item=>`<div class="mediaCard">
+    ${item.kind==='video'?`<video class="thumb" src="${escapeHtml(item.preview_url||item.asset_url||'')}" muted playsinline preload="metadata" controls></video>`:`<img class="thumb" src="${escapeHtml(item.preview_url||item.asset_url||'')}" alt="${escapeHtml(item.title||'media')}">`}
+    <div class="mediaMeta"><div class="ttl">${escapeHtml(item.title||'')}</div><div class="mini">${escapeHtml(item.provider)} · ${escapeHtml(item.license||'')}</div>${item.attribution?`<div class="mini">${escapeHtml(item.attribution)}</div>`:''}<div style="margin-top:8px"><a class="actionBtn" style="text-decoration:none" href="${escapeHtml(item.page_url||'#')}" target="_blank" rel="noopener">Kaynağı Aç</a></div></div>
+  </div>`).join('')}</div>`:'<div class="status">Sonuç yok.</div>';
+  pager.innerHTML=`${j.prev_page?'<button type="button" class="actionBtn" id="libPrev">← Önceki</button>':''}<span class="small">Sayfa ${escapeHtml(j.page||1)}</span>${j.next_page?'<button type="button" class="actionBtn" id="libNext">Sonraki →</button>':''}`;
+  $("libPrev")?.addEventListener('click',()=>browseLibrary(j.prev_page));
+  $("libNext")?.addEventListener('click',()=>browseLibrary(j.next_page));
+}
+async function browseLibrary(page=1){
+  const provider=$("libraryProvider").value, kind=$("libraryKind").value, q=$("libraryQuery").value.trim();
+  if(!q){$("libraryStatus").className='status err';$("libraryStatus").textContent='Arama kelimesi yaz.';return;}
+  $("libraryStatus").className='status';$("libraryStatus").textContent='Kütüphane aranıyor...';
+  try{
+    const r=await fetch(`/api/real-media/browse?provider=${encodeURIComponent(provider)}&kind=${encodeURIComponent(kind)}&q=${encodeURIComponent(q)}&page=${encodeURIComponent(page)}&per_page=24`);
+    const j=await r.json(); if(!r.ok){$("libraryStatus").className='status err';$("libraryStatus").textContent=j.error||'Arama başarısız.';return;} renderLibraryResults(j);
+  }catch(e){$("libraryStatus").className='status err';$("libraryStatus").textContent='Bağlantı hatası: '+e.message;}
+}
+
+async function loadProviderStatus(){
+  try{
+    const r=await fetch('/api/real-media/providers');
+    const j=await r.json();
+    renderProviderStatus(j);
+  }catch(e){
+    $("providerStatus").className='status err';
+    $("providerStatus").textContent='Sağlayıcı durumları alınamadı.';
+  }
+}
+async function fetchRealMedia(){
+  const status=$("realMediaStatus");
+  if(!animalToken){status.className='status err'; status.textContent='Önce hayvanı doğrula.'; return;}
+  if(!selectedLoc){status.className='status err'; status.textContent='Önce uygun mekan seç.'; return;}
+  status.className='status'; status.textContent='Gerçek medya çekiliyor...';
+  setWorkspaceTab('visual');
+  try{
+    const payload={animalToken,locationId:selectedLoc.id,videoType:$("videoType").value,mediaKind:$("realMediaKind").value,compareType:compareTypeForRequest(),opponentAnimalToken};
+    const r=await fetch('/api/real-media/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    const j=await r.json();
+    if(!r.ok){status.className='status err'; status.textContent=j.error||'Gerçek medya çekilemedi.'; renderRealMediaResults(null); return;}
+    renderRealMediaResults(j);
+    const total=(j.layers||[]).reduce((n,x)=>n+(x.results||[]).length,0);
+    status.className='status ok';
+    status.innerHTML=`✓ ${total} medya sonucu alındı.${(j.warnings||[]).length?`<br><span class="small">${j.warnings.join(' ')}</span>`:''}`;
+  }catch(e){
+    status.className='status err'; status.textContent='Bağlantı hatası: '+e.message;
+  }
+}
+function downloadRealMediaBundle(){
+  if(!lastRealMediaBundle){$("realMediaStatus").className='status err'; $("realMediaStatus").textContent='Önce gerçek medya çek.'; return;}
+  downloadText(JSON.stringify(lastRealMediaBundle,null,2),`${currentBaseName()}-gercek-medya.json`,'application/json;charset=utf-8');
+  $("realMediaStatus").className='status ok'; $("realMediaStatus").textContent='Gerçek medya JSON indirildi.';
+}
+
+function currentBaseName(){
+  const animal=($("animalSearch")?.value||"hayvan").trim();
+  const topic=($("topic")?.value||"video").trim();
+  const raw=(animal+"-"+topic).toLocaleLowerCase("tr-TR");
+  return raw.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9ğüşöçıİĞÜŞÖÇ]+/gi,"-").replace(/^-+|-+$/g,"").slice(0,80)||"youtube-paketi";
+}
+function getTextById(id){
+  const el=$(id);
+  return el ? (el.innerText||el.textContent||"").trim() : "";
+}
+function showActionMessage(id,msg){
+  const el=$(id);
+  if(!el) return;
+  el.textContent=msg;
+  clearTimeout(el._msgTimer);
+  el._msgTimer=setTimeout(()=>{el.textContent=""},2200);
+}
+async function copyTextFrom(id){
+  const text=getTextById(id);
+  if(!text) return showActionMessage("msg-"+id,"Kopyalanacak içerik yok.");
+  try{
+    await navigator.clipboard.writeText(text);
+    showActionMessage("msg-"+id,"Kopyalandı.");
+  }catch{
+    const ta=document.createElement("textarea");
+    ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();
+    showActionMessage("msg-"+id,"Kopyalandı.");
+  }
+}
+function downloadText(text,filename,mime="text/plain;charset=utf-8"){
+  const blob=new Blob([text],{type:mime});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),500);
+}
+function downloadTextFrom(id,kind){
+  const text=getTextById(id);
+  if(!text) return showActionMessage("msg-"+id,"İndirilecek içerik yok.");
+  downloadText(text,`${currentBaseName()}-${kind}.txt`);
+  showActionMessage("msg-"+id,"TXT indirildi.");
+}
+function getInfoTabText(){
+  const idea=$("ideaPanel")?.innerText||"";
+  const info=$("animalInfoPanel")?.innerText||"";
+  return [idea,info].filter(Boolean).join("\n\n").trim();
+}
+function downloadJsonBundle(){
+  const bundle={
+    generated_at:new Date().toISOString(),
+    video_type:$("videoType")?.value||"",
+    video_format_id:videoFormatId||"",
+    visual_media_mode:visualMediaMode||"",
+    animal:$("animalSearch")?.value||"",
+    opponent:$("opponentSearch")?.value||"",
+    topic:$("topic")?.value||"",
+    location:selectedLoc?.name||"",
+    sections:{
+      info:getInfoTabText(),
+      visuals:getTextById("visualOutput"),
+      video:getTextById("videoOutput"),
+      click_package:getTextById("clickOutput"),
+      full:getTextById("fullOutput"),
+      real_media:lastRealMediaBundle
+    }
+  };
+  downloadText(JSON.stringify(bundle,null,2),`${currentBaseName()}-paket.json`,"application/json;charset=utf-8");
+  showActionMessage("msg-fullOutput","JSON paket indirildi.");
+}
+function bindWorkspaceActions(){
+  const root=$("workspaceRoot");
+  if(!root) return;
+  root.querySelectorAll("[data-copy-target]").forEach(btn=>{
+    btn.onclick=()=>copyTextFrom(btn.dataset.copyTarget);
+  });
+  root.querySelectorAll("[data-download-target]").forEach(btn=>{
+    btn.onclick=()=>downloadTextFrom(btn.dataset.downloadTarget,btn.dataset.kind||"paket");
+  });
+  const jsonBtn=$("downloadJsonBundle");
+  if(jsonBtn) jsonBtn.onclick=downloadJsonBundle;
+  const copyInfo=$("copyInfoTab");
+  if(copyInfo) copyInfo.onclick=async()=>{
+    const text=getInfoTabText();
+    if(!text) return showActionMessage("msg-infoTab","Kopyalanacak bilgi yok.");
+    try{await navigator.clipboard.writeText(text)}catch{
+      const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();
+    }
+    showActionMessage("msg-infoTab","Bilgi kopyalandı.");
+  };
+  const downloadInfo=$("downloadInfoTab");
+  if(downloadInfo) downloadInfo.onclick=()=>{
+    const text=getInfoTabText();
+    if(!text) return showActionMessage("msg-infoTab","İndirilecek bilgi yok.");
+    downloadText(text,`${currentBaseName()}-bilgi.txt`);
+    showActionMessage("msg-infoTab","Bilgi TXT indirildi.");
+  };
+}
+
+function distributeGeneratedOutput(text){
+  const full=$("fullOutput"), video=$("videoOutput"), visual=$("visualOutput"), click=$("clickOutput");
+  if(full) full.textContent=text||"Henüz üretim yapılmadı.";
+  if(!text){
+    if(video) video.textContent="Video çıktısı yok.";
+    if(visual) visual.textContent="Görsel çıktısı yok.";
+    if(click) click.textContent="Tıklatma paketi yok.";
+    return;
+  }
+  const lines=String(text).split(/\r?\n/);
+  const buckets={video:[],visual:[],click:[],info:[]};
+  let current="video";
+  function chooseBucket(line){
+    const t=line.trim().toLocaleLowerCase("tr");
+    if(!t) return current;
+    if(t.includes("görsel içerik paketi") || t.includes("ai görsel") || t.includes("image prompt") || t.includes("video prompt") || t.includes("taraf a solo") || t.includes("taraf b solo") || t.includes("karşılaştırma sahneleri") || t.includes("tr arama kelimeleri") || t.includes("en arama kelimeleri") || t.includes("gerçek görsel içerik paketi")) return "visual";
+    if(t.includes("başlık") || t.includes("thumbnail") || t.includes("kapak") || t.includes("etiketler") || t.includes("açıklama") || t.includes("ilk 3 saniye") || t.includes("hook için en güçlü 3 sahne")) return "click";
+    if(t.includes("doğruluk kontrol") || t.includes("üretim kontrol listesi")) return "info";
+    if(t.includes("video özeti") || t=="hook" || t.startsWith("hook:") || t.includes("zaman kodlu") || t.includes("seslendirme") || t.includes("kamera/kurgu") || t.includes("kamera") || t.includes("kurgu") || t.includes("cta") || t.includes("sahne akışı")) return "video";
+    return current;
+  }
+  for(const line of lines){
+    current=chooseBucket(line);
+    buckets[current].push(line);
+  }
+  if(video) video.textContent=(buckets.video.join("\n").trim() || "Bu üretimde ayrıştırılabilir video bölümü bulunamadı. Tam çıktıyı inceleyebilirsin.");
+  if(visual) visual.textContent=(buckets.visual.join("\n").trim() || "Bu üretimde ayrıştırılabilir görsel bölümü bulunamadı. Tam çıktıyı inceleyebilirsin.");
+  const clickText=[buckets.click.join("\n").trim(), buckets.info.join("\n").trim()].filter(Boolean).join("\n\n");
+  if(click) click.textContent=(clickText || "Bu üretimde ayrıştırılabilir tıklatma paketi bulunamadı. Tam çıktıyı inceleyebilirsin.");
+}
+const norm=s=>(s||"").toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+function showSuggestions(items){const b=$("suggest");if(!items.length){b.style.display="none";return}b.innerHTML=items.map((x,i)=>`<div class="srow" data-i="${i}"><div class="sname">${x.display_name||x.scientific_name}</div><div class="ssci">${x.scientific_name||""}${x.rank?" · "+x.rank:""}</div></div>`).join("");b.style.display="block";b.querySelectorAll("[data-i]").forEach(el=>el.onclick=()=>{const x=items[+el.dataset.i];$("animalSearch").value=x.display_name||x.scientific_name;b.style.display="none";resolveAnimal()})}
+$("animalSearch").addEventListener("input",()=>{clearTimeout(timer);animalToken="";compatible=[];selectedLoc=null;$("locationSection").classList.add("disabled");$("ideaPanel").classList.add("disabled");$("animalInfoPanel").classList.add("disabled");const q=$("animalSearch").value.trim();if(q.length<2){$("suggest").style.display="none";return}timer=setTimeout(async()=>{try{const r=await fetch("/api/animal/suggest?q="+encodeURIComponent(q));showSuggestions(await r.json())}catch{}},300)});
+$("animalSearch").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();$("suggest").style.display="none";resolveAnimal()}});document.addEventListener("click",e=>{if(!e.target.closest(".search"))$("suggest").style.display="none"});
+async function resolveAnimal(){const q=$("animalSearch").value.trim();if(!q)return;$("animalStatus").className="status";$("animalStatus").textContent="Hayvan doğrulanıyor ve doğal habitatı çıkarılıyor...";try{const r=await fetch("/api/animal/resolve",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})});const j=await r.json();if(!r.ok){$("animalStatus").className="status err";$("animalStatus").textContent=j.error||"Hayvan çözülemedi.";return}animalToken=j.token;compatible=j.locations||[];selectedLoc=null;activeCat="Tümü";$("animalSearch").value=j.animal.display_name;$("animalStatus").className="status ok";$("animalStatus").innerHTML=`✓ <b>${j.animal.display_name}</b><br><span class="small"><i>${j.animal.scientific_name}</i> · ${j.animal.rank||"takson"} · ${j.animal.taxonomy_source}</span><br><span class="small">${j.profile.reason||""}</span><br><span class="small">İçerik potansiyeli: <b>${j.tier_meta?.content_label||"◦ Niş"}</b></span>`;
+$("ideaPanel").classList.remove("disabled");
+$("animalInfoPanel").classList.remove("disabled");
+$("ideaStatus").className="status ok";
+$("ideaStatus").textContent="Hayvan doğrulandı. İstersen 5 güçlü video konusu oluştur.";
+$("animalInfoStatus").className="status ok";
+$("animalInfoStatus").textContent="Kısa özet veya detaylı bilgi seçebilirsin.";
+$("tierBadge").className="status ok";
+$("tierBadge").textContent=`${j.tier_meta?.content_label||"◦ Niş"} · Skor ${j.tier_meta?.content_score||52}`;
+$("locationSection").classList.remove("disabled");renderChips();renderLocations()}catch(e){$("animalStatus").className="status err";$("animalStatus").textContent="Bağlantı hatası: "+e.message}}
+function filtered(){const q=norm($("locationSearch").value);return compatible.filter(x=>(activeCat==="Tümü"||x.category_name===activeCat)&&(!q||norm([x.name,x.category_name,...x.habitat_tags].join(" ")).includes(q)))}
+function renderChips(){const cats=["Tümü",...new Set(compatible.map(x=>x.category_name))];$("chips").innerHTML=cats.map(c=>`<button type="button" class="chip ${c===activeCat?"active":""}" data-c="${c}">${c}</button>`).join("");$("chips").querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{activeCat=b.dataset.c;renderChips();renderLocations()})}
+function renderLocations(){const xs=filtered();$("count").textContent=xs.length+" seçenek";$("list").innerHTML=xs.length?xs.map(x=>`<div class="row ${selectedLoc?.id===x.id?"selected":""}" data-id="${x.id}"><div><div class="rname">${x.name}</div><div class="rmeta">${x.category_name} · ${x.match_tags.slice(0,4).join(" · ")}</div></div><div class="score">Uyum ${x.match_score}</div></div>`).join(""):`<div class="status">Bu filtrede uygun mekan yok.</div>`;$("list").querySelectorAll("[data-id]").forEach(el=>el.onclick=()=>{selectedLoc=compatible.find(x=>x.id===el.dataset.id);$("locationStatus").className="status ok";$("locationStatus").innerHTML=`✓ <b>${selectedLoc.name}</b><br><span class="small">${selectedLoc.category_name}</span>`;renderLocations()})}
+$("locationSearch").addEventListener("input",renderLocations);
+
+
+let allVsTemplates=[];
+async function loadVsTemplates(formatId){
+  try{
+    const r=await fetch('/api/vs-templates?format='+encodeURIComponent(formatId||''));
+    allVsTemplates=await r.json();
+    const box=$("vsTemplateChips"), st=$("vsTemplateStatus");
+    if(!allVsTemplates.length){box.innerHTML=''; st.className='status'; st.textContent='Bu format için hazır VS paketi yok.'; return}
+    box.innerHTML=allVsTemplates.map(t=>`<button type="button" class="chip" data-vst="${t.id}" title="${t.description}">${t.label}</button>`).join('');
+    box.querySelectorAll('[data-vst]').forEach(b=>b.onclick=()=>{
+      vsTemplateId=b.dataset.vst;
+      box.querySelectorAll('[data-vst]').forEach(x=>x.classList.toggle('active',x.dataset.vst===vsTemplateId));
+      const t=allVsTemplates.find(x=>x.id===vsTemplateId);
+      st.className='status ok';
+      st.innerHTML=`✓ <b>${t.label}</b><br><span class="small">${t.description}</span><br><span class="small">${(t.rules||[]).join(' • ')}</span>`;
+    });
+    vsTemplateId='';
+    st.className='status';
+    st.textContent='Bir VS şablonu seç.';
+  }catch(e){$("vsTemplateStatus").className='status err'; $("vsTemplateStatus").textContent='VS paketleri yüklenemedi.'}
+}
+
+let opponentTimer=null;
+function showOpponentSuggestions(items){const b=$("opponentSuggest");if(!items.length){b.style.display="none";return}b.innerHTML=items.map((x,i)=>`<div class="srow" data-i="${i}"><div class="sname">${x.display_name||x.scientific_name}</div><div class="ssci">${x.scientific_name||""}${x.rank?" · "+x.rank:""}</div></div>`).join("");b.style.display="block";b.querySelectorAll("[data-i]").forEach(el=>el.onclick=()=>{const x=items[+el.dataset.i];$("opponentSearch").value=x.display_name||x.scientific_name;b.style.display="none";resolveOpponentAnimal()})}
+$("opponentSearch")?.addEventListener("input",()=>{clearTimeout(opponentTimer);opponentAnimalToken="";const q=$("opponentSearch").value.trim();if(q.length<2){$("opponentSuggest").style.display="none";return}opponentTimer=setTimeout(async()=>{try{const r=await fetch("/api/animal/suggest?q="+encodeURIComponent(q));showOpponentSuggestions(await r.json())}catch{}},300)});
+$("opponentSearch")?.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();$("opponentSuggest").style.display="none";resolveOpponentAnimal()}});
+async function resolveOpponentAnimal(){const q=$("opponentSearch").value.trim();if(!q)return;$("opponentStatus").className="status";$("opponentStatus").textContent="Karşı taraf hayvanı doğrulanıyor...";try{const r=await fetch("/api/opponent/resolve",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})});const j=await r.json();if(!r.ok){$("opponentStatus").className="status err";$("opponentStatus").textContent=j.error||"Karşı taraf çözülemedi.";return}opponentAnimalToken=j.token;$("opponentSearch").value=j.animal.display_name;$("opponentStatus").className="status ok";$("opponentStatus").innerHTML=`✓ <b>${j.animal.display_name}</b><br><span class="small"><i>${j.animal.scientific_name}</i> · ${j.animal.rank||"takson"} · ${j.animal.taxonomy_source}</span><br><span class="small">${j.profile.reason||""}</span>`}catch(e){$("opponentStatus").className="status err";$("opponentStatus").textContent="Bağlantı hatası: "+e.message}}
+function updateCompareSection(){const isAnimalCompare=videoFormatId==="comparison";const isHumanCompare=videoFormatId==="human_vs_animal";$("compareSection").classList.toggle("hidden",!(isAnimalCompare||isHumanCompare));if(!(isAnimalCompare||isHumanCompare)){vsTemplateId="";$("vsTemplateArea").classList.add("hidden");return}$("vsTemplateArea").classList.remove("hidden");loadVsTemplates(videoFormatId);if(isAnimalCompare){$("compareModeStatus").className="status ok";$("compareModeStatus").innerHTML="Aktif mod: <b>Hayvan vs Hayvan</b><br><span class='small'>İkinci hayvanı seç. Sistem iki tarafı doğrulayıp görselleri ayrı ayrı ve karşılaştırmalı biçimde filtreler.</span>";$("opponentAnimalArea").classList.remove("hidden");$("humanCompareArea").classList.add("hidden")}else{opponentAnimalToken="";$("compareModeStatus").className="status ok";$("compareModeStatus").innerHTML="Aktif mod: <b>İnsan vs Hayvan</b><br><span class='small'>Karşı taraf otomatik olarak insan kabul edilir. Görseller insan referansı + hayvan + karşılaştırma kadrajı olarak hazırlanır.</span>";$("opponentAnimalArea").classList.add("hidden");$("humanCompareArea").classList.remove("hidden")}}
+
+$("generate").addEventListener("click",async()=>{const out=$("output");if(!animalToken){out.textContent="Önce hayvanı yazıp doğrula.";return}if(!selectedLoc){out.textContent="Hayvana uygun mekanlardan birini seç.";return}if(!$("topic").value.trim()){out.textContent="Video konusunu yaz.";return}if(!videoFormatId){out.textContent="Önce video formatını seç.";return}if((videoFormatId==="comparison"||videoFormatId==="human_vs_animal") && !vsTemplateId){out.textContent="Karşılaştırma için bir VS hazır paketi seç.";return}if(videoFormatId==="comparison" && !opponentAnimalToken){out.textContent="Hayvan vs hayvan için ikinci hayvanı seçip doğrula.";return}const ids=["videoType","duration","topic","goal","tone","visualStyle","sceneCount","audience","extra"],payload={animalToken,locationId:selectedLoc.id,videoFormatId,visualMediaMode,opponentAnimalToken,vsTemplateId};ids.forEach(id=>payload[id]=$(id).value.trim());const b=$("generate");b.disabled=true;b.textContent="Hazırlanıyor...";out.textContent="Doğrulanmış hayvan + habitat ile üretim hazırlanıyor...";distributeGeneratedOutput("");setWorkspaceTab("video");try{const r=await fetch("/api/generate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});const j=await r.json();const finalText=r.ok?j.output:(j.error||"Üretim durduruldu.");out.textContent=finalText;distributeGeneratedOutput(finalText);setWorkspaceTab(r.ok?"video":"full")}catch(e){const errText="Bağlantı hatası: "+e.message;out.textContent=errText;distributeGeneratedOutput(errText);setWorkspaceTab("full")}finally{b.disabled=false;b.textContent="Videoyu Hazırla"}});
+
+let currentGroup=null;
+async function loadAnimalGroups(){
+  try{
+    const r=await fetch("/api/animal-groups"), groups=await r.json();
+    $("animalGroupChips").innerHTML=groups.map(g=>`<button type="button" class="chip" data-g="${g.id}">${g.emoji} ${g.name}</button>`).join("");
+    $("animalGroupChips").querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>selectAnimalGroup(b.dataset.g,groups));
+  }catch{}
+}
+async function selectAnimalGroup(id,groups){
+  currentGroup=id;
+  $("animalGroupChips").querySelectorAll("[data-g]").forEach(b=>b.classList.toggle("active",b.dataset.g===id));
+  const g=groups.find(x=>x.id===id);$("groupPanel").style.display="block";$("groupTitle").textContent=`${g.emoji} ${g.name}`;
+  $("groupSearch").value="";
+  const r=await fetch(`/api/animal-groups/${id}/featured`),j=await r.json();
+  renderGroupAnimals(j.featured||[],"featured");
+}
+function renderGroupAnimals(items,source){
+  $("groupCount").textContent=items.length+" canlı";
+  $("groupList").innerHTML=items.length?items.map((x,i)=>`<div class="row groupAnimal" data-name="${x.display_name}" data-sci="${x.scientific_name}"><div><div class="rname">${source==="featured"?`${x.rank||i+1}. `:""}${x.display_name}</div><div class="rmeta"><i>${x.scientific_name}</i>${x.rank&&source!=="featured"?" · "+x.rank:""}</div></div><div class="score">${x.content_label|| (source==="featured"?"Öne çıkan":"Seç")}</div></div>`).join(""):`<div class="status">Bu aramada canlı bulunamadı.</div>`;
+  $("groupList").querySelectorAll(".groupAnimal").forEach(el=>el.onclick=()=>{$("animalSearch").value=el.dataset.name||el.dataset.sci;resolveAnimal();window.scrollTo({top:$("animalSearch").getBoundingClientRect().top+window.scrollY-120,behavior:"smooth"})});
+}
+let groupTimer=null;
+$("groupSearch")?.addEventListener("input",()=>{
+  clearTimeout(groupTimer);
+  const q=$("groupSearch").value.trim();
+  groupTimer=setTimeout(async()=>{
+    if(!currentGroup)return;
+    if(!q){
+      const r=await fetch(`/api/animal-groups/${currentGroup}/featured`),j=await r.json();renderGroupAnimals(j.featured||[],"featured");return;
+    }
+    const r=await fetch(`/api/animal-groups/${currentGroup}/search?q=${encodeURIComponent(q)}`),j=await r.json();renderGroupAnimals(j.results||[],j.source||"GBIF");
+  },300);
+});
+loadAnimalGroups();
+
+
+$("ideaBtn")?.addEventListener("click", async()=>{setWorkspaceTab("info");
+  const status=$("ideaStatus"), list=$("ideaList");
+  if(!animalToken){status.className="status err";status.textContent="Önce hayvanı doğrula.";return}
+  status.className="status";status.textContent="5 viral konu üretiliyor...";
+  list.innerHTML="";
+  try{
+    const r=await fetch("/api/animal/ideas",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({animalToken})});
+    const j=await r.json();
+    if(!r.ok){status.className="status err";status.textContent=j.error||"Fikir üretilemedi.";return}
+    status.className="status ok";
+    status.innerHTML=`<b>${j.animal_display_name||$("animalSearch").value}</b> · ${j.content_label} · Skor ${j.content_score}<br><span class="small">${j.summary||""}</span>`;
+    list.innerHTML=(j.ideas||[]).map((it,idx)=>`<div class="row" style="display:block"><div class="rname">${idx+1}. ${it.title}</div><div class="rmeta" style="margin-top:6px"><b>Hook:</b> ${it.hook||"-"}<br><b>Açı:</b> ${it.angle||"-"}<br><b>Neden dikkat çeker:</b> ${it.why_clicks||"-"}</div></div>`).join("");
+  }catch(e){
+    status.className="status err";status.textContent="Bağlantı hatası: "+e.message;
+  }
+});
+
+
+const FACT_LABELS={
+ length:"Boy / uzunluk",height:"Yükseklik",weight:"Ağırlık",
+ lifespan_wild:"Doğada yaşam süresi",lifespan_captivity:"Esarette yaşam süresi",
+ diet:"Beslenme",prey:"Avları",predators:"Doğal düşmanları",habitat:"Habitat",
+ distribution:"Dağılım",activity:"Aktivite",social_structure:"Sosyal yapı",
+ speed_movement:"Hareket / hız",swimming:"Yüzme",climbing:"Tırmanma",
+ senses:"Duyular",hunting:"Avlanma",defense:"Savunma",reproduction:"Üreme",
+ gestation_incubation:"Gebelik / kuluçka",offspring:"Yavru sayısı",maturity:"Cinsel olgunluk",
+ communication:"İletişim",intelligence:"Zekâ / problem çözme",migration_seasonality:"Göç / mevsimsellik",
+ human_risk:"İnsan için risk",human_interaction:"İnsanla etkileşim",
+ ecological_role:"Ekosistemdeki rol",adaptations:"Adaptasyonlar",
+ conservation_status:"Koruma durumu",threats:"Başlıca tehditler"
+};
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function renderAnimalInfo(j){
+  const facts=j.facts||{};
+  const cards=Object.entries(FACT_LABELS).filter(([k])=>facts[k]&&String(facts[k]).trim()&&String(facts[k]).trim()!=="-").map(([k,l])=>`<div class="factCard"><div class="factKey">${l}</div><div class="factVal">${esc(facts[k])}</div></div>`).join("");
+  const interesting=(j.interesting_facts||[]).map((x,i)=>`<div class="sourceRow"><b>${i+1}.</b> ${esc(x)}</div>`).join("");
+  const sources=(j.sources||[]).map(s=>`<div class="sourceRow"><b>${esc(s.name||s.domain||"Kaynak")}</b>${s.domain?` · ${esc(s.domain)}`:""}<br><span class="small">${esc(s.used_for||"")}</span></div>`).join("");
+  const cautions=(j.cautions||[]).map(x=>`<div class="caution">⚠ ${esc(x)}</div>`).join("");
+  $("animalInfoStatus").className="status ok";
+  $("animalInfoStatus").innerHTML=`<b>${esc(j.animal_name||$("animalSearch").value)}</b> · ${j.mode==="detailed"?"Detaylı":"Kısa"} bilgi · Güven: <b>${esc(j.confidence||"")}</b><br><span class="small">${esc(j.confidence_note||"")}</span>`;
+  $("animalInfoContent").innerHTML=`
+    <div class="factGrid">${cards}</div>
+    ${interesting?`<div class="infoSub">✨ İlginç özellikler</div><div class="list" style="height:auto;max-height:320px">${interesting}</div>`:""}
+    ${cautions?`<div class="infoSub">Bilgi notları</div>${cautions}`:""}
+    ${sources?`<div class="infoSub">🔎 Kullanılan güvenilir kaynaklar</div><div class="list" style="height:auto;max-height:260px">${sources}</div>`:""}
+    <div class="small" style="margin-top:10px">Araştırma zamanı: ${esc(j.researched_at||"")}</div>`;
+}
+async function fetchAnimalInfo(mode){
+  const status=$("animalInfoStatus");
+  if(!animalToken){status.className="status err";status.textContent="Önce hayvanı doğrula.";return}
+  status.className="status";status.textContent=mode==="detailed"?"Detaylı kaynak taraması yapılıyor...":"Kısa, doğrulanmış özet hazırlanıyor...";
+  $("animalInfoContent").innerHTML="";
+  try{
+    const r=await fetch("/api/animal/info",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({animalToken,mode})});
+    const j=await r.json();
+    if(!r.ok){status.className="status err";status.textContent=j.error||"Bilgi alınamadı.";return}
+    renderAnimalInfo(j);
+  }catch(e){status.className="status err";status.textContent="Bağlantı hatası: "+e.message}
+}
+$("shortInfoBtn")?.addEventListener("click",()=>{setWorkspaceTab("info");fetchAnimalInfo("short")});
+$("detailedInfoBtn")?.addEventListener("click",()=>{setWorkspaceTab("info");fetchAnimalInfo("detailed")});
+
+
+async function loadVideoFormats(){
+  try{
+    const r=await fetch("/api/video-formats"),formats=await r.json();
+    $("videoFormatChips").innerHTML=formats.map(f=>`<button type="button" class="chip" data-vf="${f.id}" title="${f.description}">${f.emoji} ${f.name}</button>`).join("");
+    $("videoFormatChips").querySelectorAll("[data-vf]").forEach(b=>b.onclick=()=>{
+      videoFormatId=b.dataset.vf;
+      $("videoFormatChips").querySelectorAll("[data-vf]").forEach(x=>x.classList.toggle("active",x.dataset.vf===videoFormatId));
+      const f=formats.find(x=>x.id===videoFormatId);
+      $("videoFormatStatus").className="status ok";
+      $("videoFormatStatus").innerHTML=`✓ <b>${f.emoji} ${f.name}</b><br><span class="small">${f.description}</span>`;updateCompareSection();
+    });
+  }catch(e){
+    $("videoFormatStatus").className="status err";
+    $("videoFormatStatus").textContent="Video formatları yüklenemedi.";
+  }
+}
+buildWorkspace();
+loadVideoFormats();
+updateCompareSection();
+loadProviderStatus();
+$("fetchRealMedia")?.addEventListener("click",fetchRealMedia);
+$("downloadRealMediaJson")?.addEventListener("click",downloadRealMediaBundle);
+$("librarySearchBtn")?.addEventListener("click",()=>browseLibrary(1));
+
+function updateVisualModeUI(){
+  const isLong = $("videoType").value==="Uzun Video";
+  if(isLong){
+    visualMediaMode="real";
+    $("shortsVisualOptions").classList.add("disabled");
+    $("visualModeLongInfo").className="status ok";
+    $("visualModeLongInfo").innerHTML="✓ <b>Uzun Video</b> seçildi. Bu modda sistem yalnızca <b>gerçek telifsiz fotoğraf + video</b> planı üretir.";
+    $("visualModeStatus").className="status ok";
+    $("visualModeStatus").innerHTML="Aktif mod: <b>Gerçek telifsiz fotoğraf + video</b><br><span class='small'>Çıktıda telifsiz / açık lisanslı kaynak aileleri, arama kelimeleri, viral güç puanları ve tekrar etmeyen sahneler verilir; ek olarak canlı gerçek medya çekim katmanı kullanılabilir.</span>";
+  }else{
+    $("shortsVisualOptions").classList.remove("disabled");
+    $("visualModeLongInfo").className="status";
+    $("visualModeLongInfo").innerHTML="Shorts seçildi. Aşağıdan <b>gerçek medya</b> veya <b>yapay zeka medya</b> seçebilirsin.";
+    const activeLabel = visualMediaMode==="ai" ? "Yapay zeka fotoğraf + video" : "Gerçek fotoğraf + video";
+    $("visualModeStatus").className="status ok";
+    $("visualModeStatus").innerHTML=`Aktif mod: <b>${activeLabel}</b>` + (visualMediaMode==="ai"
+      ? "<br><span class='small'>Çıktıda 10 sahne × 3 açı olacak şekilde, güçlü ve tekrar etmeyen AI image/video prompt paketi üretilir.</span>"
+      : "<br><span class='small'>Çıktıda telifsiz / açık lisanslı gerçek medya planı verilir; ayrıca bu sekmeden canlı gerçek medya sonuçları çekebilirsin.</span>");
+  }
+}
+$("videoType").addEventListener("change",updateVisualModeUI);
+$("shortsVisualOptions").querySelectorAll("[data-vm]").forEach(btn=>btn.onclick=()=>{
+  visualMediaMode=btn.dataset.vm;
+  $("shortsVisualOptions").querySelectorAll("[data-vm]").forEach(x=>x.classList.toggle("active",x.dataset.vm===visualMediaMode));
+  updateVisualModeUI();
+});
+updateVisualModeUI();
+
+
+</script></body></html>

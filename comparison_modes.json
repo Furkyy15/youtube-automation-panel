@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "formats_supported": [
+    "comparison",
+    "human_vs_animal"
+  ],
+  "principles": [
+    "İkinci taraf doğrulanmadan karşılaştırma üretme.",
+    "Doğal karşılaşma biyolojik olarak zayıfsa doğrudan dövüş sahnesi kurma.",
+    "Bu durumda split-screen, ölçek kıyası, nötr karşılaştırma veya ayrı habitat kadrajları kullan.",
+    "Gereksiz şiddet ve grafik yaralanma gösterme.",
+    "Her iki taraf için de solo görsel paket + karşılaştırma paketi üret."
+  ],
+  "visual_structure": {
+    "real_mode": {
+      "solo_side_a": 4,
+      "solo_side_b": 4,
+      "comparison_shots": 4
+    },
+    "ai_mode": {
+      "solo_side_a": 4,
+      "solo_side_b": 3,
+      "comparison_shots": 3,
+      "angles_per_scene": 3
+    }
+  }
+}

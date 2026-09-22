@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "principles": {
+    "prioritize_viral_and_strong_visuals": true,
+    "avoid_duplicate_media_concepts": true,
+    "avoid_same_camera_angle_repetition": true,
+    "avoid_same_action_repetition": true,
+    "force_habitat_biological_match": true
+  },
+  "viral_dimensions": [
+    "predation_tension",
+    "movement_intensity",
+    "rare_behavior",
+    "eye_contact_closeup",
+    "scale_power",
+    "environment_drama",
+    "social_interaction",
+    "unexpected_detail"
+  ],
+  "action_pools": {
+    "marine": [
+      "yüzerken",
+      "derinlikte ilerlerken",
+      "yön değiştirirken",
+      "avı izlerken",
+      "yüzeye çıkarken",
+      "sürüyle hareket ederken",
+      "yakın plan baş detayı",
+      "resif yakınında süzülürken",
+      "su altında yaklaşım",
+      "geniş açık su görünümü"
+    ],
+    "freshwater": [
+      "yüzerken",
+      "sığ suda av ararken",
+      "nehir kıyısında ilerlerken",
+      "dalarken",
+      "sudan çıkarken",
+      "yakın plan doku detayı",
+      "geniş habitat planı",
+      "su sıçratırken",
+      "çevreyi izlerken",
+      "dinlenirken"
+    ],
+    "semi_aquatic": [
+      "suda ilerlerken",
+      "kıyıda yürürken",
+      "sudan karaya çıkarken",
+      "avı izlerken",
+      "dinlenirken",
+      "su sıçratmalı hareket",
+      "yakın plan yüz/doku",
+      "geniş çevre planı",
+      "alçak açı dramatik görünüm",
+      "savunma/uyarı duruşu"
+    ],
+    "terrestrial": [
+      "yürürken",
+      "koşarken",
+      "avı takip ederken",
+      "çevreyi koklarken",
+      "dinlenirken",
+      "yakın plan göz/yüz detayı",
+      "profil güçlü duruş",
+      "geniş habitat planı",
+      "alçak açı dramatik yürüyüş",
+      "uygunsa tırmanırken"
+    ],
+    "amphibious": [
+      "karada ilerlerken",
+      "suda yüzerken",
+      "kıyı geçişinde",
+      "avını izlerken",
+      "dinlenirken",
+      "yakın plan deri/doku",
+      "geniş habitat planı",
+      "ani hareket/sıçrama",
+      "savunma duruşu",
+      "çevreyi gözlerken"
+    ],
+    "aerial": [
+      "uçarken",
+      "inişe geçerken",
+      "kanat açmış halde",
+      "avı gözlerken",
+      "tünemiş halde",
+      "yakın plan baş/gaga/göz",
+      "profil uçuş",
+      "geniş gökyüzü planı",
+      "alttan dramatik açı",
+      "kanat detayı"
+    ]
+  },
+  "dedupe_rules": [
+    "Aynı aksiyon etiketi listede mümkünse yalnız 1 kez, gerekirse en fazla 2 kez geçsin.",
+    "İki sahne aynı davranış + aynı ortam + aynı kadraj kombinasyonunu paylaşmasın.",
+    "Yakın plan, orta plan ve geniş planlar dengeli dağılsın.",
+    "İlk 3 sahne en yüksek dikkat çekme potansiyelli olsun.",
+    "Her öneri diğer öneriden neden farklı olduğunu kısa notla belirtsin."
+  ]
+}

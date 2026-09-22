@@ -1,0 +1,6325 @@
+{
+  "version": "3.0",
+  "categories": [
+    {
+      "id": "water_world",
+      "name": "Su Dünyası",
+      "location_count": 115
+    },
+    {
+      "id": "islands_coasts",
+      "name": "Adalar ve Kıyılar",
+      "location_count": 45
+    },
+    {
+      "id": "tropical_forest",
+      "name": "Tropik Ormanlar",
+      "location_count": 45
+    },
+    {
+      "id": "temperate_forest",
+      "name": "Ilıman ve Serin Ormanlar",
+      "location_count": 35
+    },
+    {
+      "id": "desert_arid",
+      "name": "Çöller ve Kurak Araziler",
+      "location_count": 35
+    },
+    {
+      "id": "savanna_grassland",
+      "name": "Savana ve Açık Çayırlar",
+      "location_count": 35
+    },
+    {
+      "id": "mountain_highland",
+      "name": "Dağlar ve Yüksek Bölgeler",
+      "location_count": 35
+    },
+    {
+      "id": "polar_ice",
+      "name": "Kutup, Kar ve Buz",
+      "location_count": 30
+    },
+    {
+      "id": "canyon_rock",
+      "name": "Kanyon, Vadi ve Kayalıklar",
+      "location_count": 30
+    },
+    {
+      "id": "caves_underground",
+      "name": "Mağaralar ve Yeraltı",
+      "location_count": 25
+    },
+    {
+      "id": "volcanic_geothermal",
+      "name": "Volkanik ve Jeotermal",
+      "location_count": 20
+    },
+    {
+      "id": "scrub_shrubland",
+      "name": "Fundalık ve Çalılıklar",
+      "location_count": 25
+    },
+    {
+      "id": "extraordinary_nature",
+      "name": "Olağanüstü Doğal Alanlar",
+      "location_count": 25
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "Açık Okyanus Yüzeyi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_002",
+      "name": "Derin Okyanus Karanlığı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold",
+        "deep_sea",
+        "marine",
+        "pelagic",
+        "saltwater",
+        "snow_ice"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_003",
+      "name": "Okyanus Yüzeyinde Dalgalar",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_004",
+      "name": "Fırtınalı Açık Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_005",
+      "name": "Sakin Tropik Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater",
+        "tropical"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_006",
+      "name": "Mercan Resifi Girişi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_007",
+      "name": "Renkli Mercan Bahçesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_008",
+      "name": "Mercan Resifi Geçidi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_009",
+      "name": "Resif Üstü Sığ Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_010",
+      "name": "Lagün İçi Berrak Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coastal_water",
+        "marine",
+        "saltwater",
+        "shallow_water"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_011",
+      "name": "Mavi Lagün",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coastal_water",
+        "marine",
+        "saltwater",
+        "shallow_water"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_012",
+      "name": "Turkuaz Kıyı Suyu",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "coastal_water",
+        "marine",
+        "saltwater",
+        "shallow_water",
+        "shore"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_013",
+      "name": "Kıyıya Yakın Tropik Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "marine",
+        "saltwater",
+        "shore",
+        "tropical"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_014",
+      "name": "Kayalık Deniz Tabanı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "rocky",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_015",
+      "name": "Kumlu Deniz Tabanı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater",
+        "sandy"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_016",
+      "name": "Deniz Çayırı Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "grassland",
+        "marine",
+        "open_plain",
+        "saltwater",
+        "seagrass",
+        "shallow_water"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_017",
+      "name": "Kelp Ormanı Suları",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold_marine",
+        "kelp_forest",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_018",
+      "name": "Buzlu Deniz Yüzeyi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold",
+        "cold_marine",
+        "marine",
+        "polar_marine",
+        "saltwater",
+        "snow_ice"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_019",
+      "name": "Kutup Denizi Altı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold",
+        "cold_marine",
+        "marine",
+        "polar_marine",
+        "saltwater",
+        "snow_ice"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_020",
+      "name": "Derin Deniz Uçurumu",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "deep_sea",
+        "marine",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_021",
+      "name": "Okyanus Çukuru Üstü",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "deep_sea",
+        "marine",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_022",
+      "name": "Sualtı Volkanik Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater",
+        "volcanic"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_023",
+      "name": "Sualtı Kaya Sırtı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "rocky",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_024",
+      "name": "Sualtı Mağara Ağzı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cave",
+        "marine",
+        "saltwater",
+        "subterranean"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_025",
+      "name": "Gelgit Havuzu",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coastal_water",
+        "intertidal",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_026",
+      "name": "Kıyı Akıntısı Açık Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "marine",
+        "saltwater",
+        "shore"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_027",
+      "name": "Sığ Resif Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "marine",
+        "reef",
+        "saltwater",
+        "shore",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_028",
+      "name": "Açık Mavi Okyanus",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_029",
+      "name": "Gri Bulutlu Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_030",
+      "name": "Gün Batımında Açık Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_031",
+      "name": "Gün Doğumunda Deniz Yüzeyi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_032",
+      "name": "Ay Işığında Okyanus",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_033",
+      "name": "Tropik Koy Suyu",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coastal_water",
+        "marine",
+        "saltwater",
+        "shallow_water",
+        "tropical"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_034",
+      "name": "Deniz Mağarası İçi Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cave",
+        "marine",
+        "saltwater",
+        "subterranean"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_035",
+      "name": "Kıyı Kayalıkları Altı Sular",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "marine",
+        "rocky",
+        "saltwater",
+        "shore"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_036",
+      "name": "Plankton Yoğun Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_037",
+      "name": "Balık Sürüsü Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_038",
+      "name": "Köpüklü Dalga Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_039",
+      "name": "Fırtına Sonrası Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_040",
+      "name": "Cam Gibi Durgun Deniz",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_041",
+      "name": "Kuvvetli Akıntılı Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_042",
+      "name": "Girdap Yakını Açık Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_043",
+      "name": "Okyanus Ortası İzole Bölge",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_044",
+      "name": "Yüzeye Yakın Açık Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_045",
+      "name": "Karanlık Mavi Derinlik",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold",
+        "deep_sea",
+        "marine",
+        "pelagic",
+        "saltwater",
+        "snow_ice"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_046",
+      "name": "Güneş Işınlı Tropik Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater",
+        "tropical"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_047",
+      "name": "Berrak Sualtı Geçidi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coastal_water",
+        "marine",
+        "saltwater",
+        "shallow_water"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_048",
+      "name": "Resif Kenarı Derinleşen Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_049",
+      "name": "Soğuk Okyanus Yüzeyi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_050",
+      "name": "Sisli Deniz Yüzeyi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "misty",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_051",
+      "name": "Sualtı Kanyon Geçidi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_052",
+      "name": "Açık Deniz Kaya Adacığı Çevresi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "rocky",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_053",
+      "name": "Dalgalı Kıyı Açığı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "coast",
+        "marine",
+        "saltwater",
+        "shore"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_054",
+      "name": "Okyanus Adası Etrafı Sular",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_055",
+      "name": "Pasifik Tarzı Açık Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_056",
+      "name": "Atlas Okyanusu Tarzı Soğuk Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_057",
+      "name": "Hint Okyanusu Tarzı Tropik Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "open_water",
+        "pelagic",
+        "saltwater",
+        "tropical"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_058",
+      "name": "Kızıldeniz Tarzı Resifli Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "reef",
+        "saltwater",
+        "tropical_marine"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_059",
+      "name": "Karanlık Fırtına Denizi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "cold",
+        "marine",
+        "saltwater",
+        "snow_ice"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_060",
+      "name": "Büyük Dalga Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic",
+        "marine",
+        "saltwater"
+      ],
+      "source_group": "Okyanus ve Su Dünyası"
+    },
+    {
+      "id": "loc_061",
+      "name": "Issız Tropik Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast",
+        "tropical"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_062",
+      "name": "Volkanik Ada Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast",
+        "volcanic"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_063",
+      "name": "Kayalık Küçük Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_064",
+      "name": "Beyaz Kumlu Ada Sahili",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_065",
+      "name": "Palmiye Ağaçlı Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_066",
+      "name": "Mercan Adası Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "reef",
+        "shore",
+        "terrestrial_coast",
+        "tropical_marine"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_067",
+      "name": "Kuş Yuvalı Küçük Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_068",
+      "name": "Rüzgarlı Issız Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_069",
+      "name": "Ormanlı Ada İçi",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_070",
+      "name": "Kuru Taşlık Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_071",
+      "name": "Gizli Koy Sahili",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_072",
+      "name": "Hilal Şeklinde Kumsal",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_073",
+      "name": "Siyah Kumlu Sahil",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_074",
+      "name": "Altın Kumlu Sahil",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_075",
+      "name": "Falezli Kıyı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_076",
+      "name": "Kayalık Sahil Şeridi",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_077",
+      "name": "Deniz Kabuklu Sığ Kıyı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_078",
+      "name": "Dalgalı Uzak Kıyı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_079",
+      "name": "Sessiz Ada Lagünü Kenarı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "coastal_water",
+        "island",
+        "shallow_water",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_080",
+      "name": "Kıyı Kumulları",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_081",
+      "name": "Ada İç Yolu Ormanı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_082",
+      "name": "Kıyıda Sürüklenmiş Ağaçlar",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_083",
+      "name": "Issız Kıyı Çalılıkları",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "scrub",
+        "shore",
+        "shrubland",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_084",
+      "name": "Deniz Mağarası Girişli Kıyı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "cave",
+        "coast",
+        "island",
+        "shore",
+        "subterranean",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_085",
+      "name": "Dalgaların Dövdüğü Falez",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_086",
+      "name": "Tropik Kıyı Kayalıkları",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast",
+        "tropical"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_087",
+      "name": "Okyanus Manzaralı Uçurum",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_088",
+      "name": "Sahil Kayalıkları Arası Geçit",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_089",
+      "name": "Kıyıdaki Gelgit Kayaları",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "coastal_water",
+        "intertidal",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_090",
+      "name": "Uzun Issız Sahil",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_091",
+      "name": "Küçük Korunaklı Doğal Koy",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_092",
+      "name": "Ada İçi Tatlı Su Göleti Kenarı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "freshwater",
+        "island",
+        "riparian",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_093",
+      "name": "Yarı Orman Yarı Sahil Ada",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_094",
+      "name": "Uzak Mercan Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "reef",
+        "shore",
+        "terrestrial_coast",
+        "tropical_marine"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_095",
+      "name": "Kıyıdaki Kum Tepeleri",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_096",
+      "name": "Tuzlu Bataklıkla Birleşen Kıyı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "marsh",
+        "shore",
+        "terrestrial_coast",
+        "wetland"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_097",
+      "name": "Sisli Ada Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "misty",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_098",
+      "name": "Gün Batımı Sahili",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_099",
+      "name": "Fırtına Öncesi Ada Sahili",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_100",
+      "name": "Kıyı Yosun Kayalıkları",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_101",
+      "name": "El Değmemiş Issız Kumsal",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "sandy",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_102",
+      "name": "Kıyıdaki Kırık Kayalar",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "rocky",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_103",
+      "name": "Kuşlu Falez Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_104",
+      "name": "Resifli Ada Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "reef",
+        "shore",
+        "terrestrial_coast",
+        "tropical_marine"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_105",
+      "name": "Uzak Tropik Ada İç Kıyısı",
+      "category_id": "islands_coasts",
+      "category_name": "Adalar ve Kıyılar",
+      "habitat_tags": [
+        "coast",
+        "island",
+        "shore",
+        "terrestrial_coast",
+        "tropical"
+      ],
+      "source_group": "Adalar ve Issız Kıyılar"
+    },
+    {
+      "id": "loc_106",
+      "name": "Yoğun Tropik Yağmur Ormanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_107",
+      "name": "Amazon Tarzı Orman İçi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_108",
+      "name": "Geniş Yapraklı Nemli Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_109",
+      "name": "Tropik Orman Açıklığı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_110",
+      "name": "Sisli Tropik Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "misty",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_111",
+      "name": "Sarmaşıklı Orman Geçidi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_112",
+      "name": "Dev Ağaçlı Orman Derinliği",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_113",
+      "name": "Çamurlu Tropik Orman Zemini",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "muddy",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_114",
+      "name": "Yağış Altındaki Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_115",
+      "name": "Tropik Nehir Kenarı Ormanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_116",
+      "name": "Bambu Yoğunluğu Olan Tropik Alan",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_117",
+      "name": "Tropik Bataklık Ormanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "marsh",
+        "rainforest",
+        "tropical",
+        "tropical_forest",
+        "wetland"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_118",
+      "name": "Palmiye Yoğun Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_119",
+      "name": "Gölgelik Sık Tropik Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_120",
+      "name": "Güneş Işıkları Sızan Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_121",
+      "name": "Yosunlu Tropik Ağaçlık",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_122",
+      "name": "Düşmüş Ağaçlı Orman Zemini",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_123",
+      "name": "Tropik Sarmaşık Tüneli",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_124",
+      "name": "Orman İçi Küçük Dere",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_125",
+      "name": "Egzotik Kuşların Olduğu Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_126",
+      "name": "Yoğun Çalı Altı Tropik Bölge",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_127",
+      "name": "Yağmur Sonrası Buharlı Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_128",
+      "name": "Tropik Meyve Ağaçları Bölgesi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_129",
+      "name": "Orman Göleti Çevresi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_130",
+      "name": "Büyük Kök Yapılı Ağaçlık",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_131",
+      "name": "Batak Kenarlı Tropik Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "marsh",
+        "rainforest",
+        "tropical",
+        "tropical_forest",
+        "wetland"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_132",
+      "name": "Vahşi Asma Bitkili Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_133",
+      "name": "Karanlık Orman Koridoru",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "humid",
+        "rainforest",
+        "snow_ice",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_134",
+      "name": "Tropik Orman Yolu",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_135",
+      "name": "Düz Tabandaki Yağmur Ormanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_136",
+      "name": "Tepecikli Tropik Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_137",
+      "name": "Nehir Kıyısına Açılan Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "coast",
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "shore",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_138",
+      "name": "Tropik Şelale Çevresi Ormanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_139",
+      "name": "Geniş Yaprak Örtülü Zemin",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_140",
+      "name": "Yoğun Böcek Sesli Nemli Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_141",
+      "name": "Palmiye ve Eğrelti Karışımı Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "humid",
+        "rainforest",
+        "snow_ice",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_142",
+      "name": "Tropik Kayalık Orman Geçidi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "rocky",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_143",
+      "name": "Geniş Gövdeli Ağaç Bölgesi",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_144",
+      "name": "Sıcak ve Nemli Orman Kenarı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_145",
+      "name": "Orman İçi Sis Katmanı",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_146",
+      "name": "Vahşi Hayvan İzli Tropik Patika",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_147",
+      "name": "Kırılmış Dalların Olduğu Orman",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_148",
+      "name": "Tropik Gölge ve Işık Karışımı Alan",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "freshwater",
+        "humid",
+        "rainforest",
+        "riparian",
+        "snow_ice",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_149",
+      "name": "Orman Kıyısındaki Açık Çamurlu Bölge",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "coast",
+        "humid",
+        "muddy",
+        "rainforest",
+        "shore",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_150",
+      "name": "Tropik Orman Uç Noktası",
+      "category_id": "tropical_forest",
+      "category_name": "Tropik Ormanlar",
+      "habitat_tags": [
+        "humid",
+        "rainforest",
+        "tropical",
+        "tropical_forest"
+      ],
+      "source_group": "Tropik Ormanlar ve Yağmur Ormanları"
+    },
+    {
+      "id": "loc_151",
+      "name": "Çam Ormanı İçleri",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_152",
+      "name": "Meşe Ormanı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_153",
+      "name": "Karışık Yapraklı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "snow_ice",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_154",
+      "name": "Sisli Ilıman Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "misty",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_155",
+      "name": "Sonbahar Renkli Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_156",
+      "name": "Yosunlu Serin Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_157",
+      "name": "Kuru Yapraklı Orman Zemini",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_158",
+      "name": "Dağ Eteği Ormanı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_159",
+      "name": "Orman Açıklığı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_160",
+      "name": "Orman İçi Dar Patika",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_161",
+      "name": "Göl Kenarı Ilıman Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_162",
+      "name": "Yağmurlu Ilıman Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_163",
+      "name": "Güneş Lekeli Orman Zemini",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_164",
+      "name": "Karanlık Sık Ağaçlıklı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "snow_ice",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_165",
+      "name": "Orman Çalılığı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_166",
+      "name": "Eğimli Orman Yamaçları",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_167",
+      "name": "İğne Yapraklı Sık Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_168",
+      "name": "Geniş Gövdeli Yaşlı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_169",
+      "name": "Orman İçi Küçük Dere (Ilıman)",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_170",
+      "name": "Kışa Dönük Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_171",
+      "name": "İlkbahar Yeşili Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_172",
+      "name": "Sararmış Yapraklı Sonbahar Koridoru",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_173",
+      "name": "Soğuk Sabah Sisli Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "misty",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_174",
+      "name": "Kuru Gövdeli Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_175",
+      "name": "Orman Kıyısı Açık Alanı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "coast",
+        "shore",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_176",
+      "name": "Yüksek Ağaç Tavanlı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_177",
+      "name": "Kökleri Belirgin Orman Zemini",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_178",
+      "name": "Yaban Hayvanı İzleri Olan Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_179",
+      "name": "Serin Vadide Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_180",
+      "name": "Orman Tepelik Bölgesi",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_181",
+      "name": "Dere Geçişli Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_182",
+      "name": "Doğal Kaya Parçalı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "rocky",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_183",
+      "name": "Sık Çalı Altı Orman",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_184",
+      "name": "Karanlık Akşamüstü Ormanı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "cold",
+        "snow_ice",
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_185",
+      "name": "Aydınlık Sabah Ormanı",
+      "category_id": "temperate_forest",
+      "category_name": "Ilıman ve Serin Ormanlar",
+      "habitat_tags": [
+        "temperate_forest",
+        "woodland"
+      ],
+      "source_group": "Ilıman ve Yoğun Ormanlar"
+    },
+    {
+      "id": "loc_186",
+      "name": "Sonsuz Kum Çölü",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_187",
+      "name": "Kumul Sırtları Bölgesi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_188",
+      "name": "Rüzgar İzli Kumullar",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_189",
+      "name": "Kayalık Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_190",
+      "name": "Taşlık Kurak Ova",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "grassland",
+        "open_plain",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_191",
+      "name": "Kızıl Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_192",
+      "name": "Sarı Kum Çölü",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_193",
+      "name": "Kurumuş Göl Yatağı",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_194",
+      "name": "Tuz Düzlüğü Çölü",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_195",
+      "name": "Seyrek Çalılı Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_196",
+      "name": "Çöl Vahası Çevresi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_197",
+      "name": "Dikenli Çöl Geçişi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_198",
+      "name": "Sıcak Taşlık Yamaç",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_199",
+      "name": "Kum Fırtınası Öncesi Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_200",
+      "name": "Çatlamış Topraklı Kurak Alan",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_201",
+      "name": "Geniş Açık Kurak Düzlük",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_202",
+      "name": "Kuru Dere Yatağı",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_203",
+      "name": "Kayalık Çöl Vadisi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_204",
+      "name": "Volkanik Kurak Alan",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "volcanic"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_205",
+      "name": "Yıpranmış Kaya Formasyonlu Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_206",
+      "name": "Gece Soğuyan Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_207",
+      "name": "Gün Batımı Kumulları",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_208",
+      "name": "Sert Güneşli Açık Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_209",
+      "name": "Çöl Kayalık Koridoru",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "rocky"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_210",
+      "name": "İnce Kumlu Düz Alan",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_211",
+      "name": "Yarı Kurak Kumlu Bölge",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_212",
+      "name": "Kurak Tepe Sırtı",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_213",
+      "name": "Çorak Tuzlu Arazi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_214",
+      "name": "Az Bitkili Kuru Alan",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_215",
+      "name": "Düşük Çalılı Sıcak Bölge",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_216",
+      "name": "Kızgın Güneş Altında Çöl",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_217",
+      "name": "Dalgalı Kum Denizi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_218",
+      "name": "Uzak Ufuklu Kurak Düzlük",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_219",
+      "name": "Rüzgarlı Kum Geçidi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert",
+        "sandy"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_220",
+      "name": "Obruklu Kurak Arazi",
+      "category_id": "desert_arid",
+      "category_name": "Çöller ve Kurak Araziler",
+      "habitat_tags": [
+        "arid",
+        "desert"
+      ],
+      "source_group": "Çöller ve Kurak Araziler"
+    },
+    {
+      "id": "loc_221",
+      "name": "Afrika Savanası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_222",
+      "name": "Uzun Otlu Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_223",
+      "name": "Kısa Otlu Açık Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_224",
+      "name": "Dağınık Akasyalı Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "highland",
+        "mountain",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_225",
+      "name": "Kuru Otlak",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_226",
+      "name": "Geniş Çayır Düzlüğü",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_227",
+      "name": "Yarı Kurak Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "arid",
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_228",
+      "name": "Gün Batımlı Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_229",
+      "name": "Hayvan Göç Yolu Savanası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_230",
+      "name": "Çamurlu Su Birikintili Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "muddy",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_231",
+      "name": "Ağaçsız Açık Düzlük",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_232",
+      "name": "Hafif Tepeli Otlak",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_233",
+      "name": "Tozlu Açık Çayır",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_234",
+      "name": "Sararmış Otlu Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_235",
+      "name": "Yeşil Bahar Savanası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_236",
+      "name": "Seyrek Ağaçlı Düzlük",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_237",
+      "name": "Uzun Görüş Mesafeli Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_238",
+      "name": "Mevsimsel Kurak Otlak",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "arid",
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_239",
+      "name": "Sabah Sisli Çayırlık",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "misty",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_240",
+      "name": "Fırtına Öncesi Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_241",
+      "name": "Çimenlik Dere Kenarı Ovası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "freshwater",
+        "grassland",
+        "open_plain",
+        "riparian",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_242",
+      "name": "Güneş Altında Kuruyan Otlak",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_243",
+      "name": "Yüksek Otluk Bölgesi",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_244",
+      "name": "Sürülerin Geçtiği Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_245",
+      "name": "Açık Toprak Adacıklı Çayır",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_246",
+      "name": "Çiçekli İlkbahar Ovası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_247",
+      "name": "Geniş Sarı Otlak",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_248",
+      "name": "Çimen ve Toz Karışımı Alan",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "cold",
+        "grassland",
+        "open_plain",
+        "savanna",
+        "snow_ice"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_249",
+      "name": "Hafif Rüzgarlı Açık Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_250",
+      "name": "Su Kuyusu Çevresi Savana",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_251",
+      "name": "Akasya Gölgelikli Açık Bölge",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "freshwater",
+        "grassland",
+        "open_plain",
+        "riparian",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_252",
+      "name": "Kurak Yamaçlı Ova",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "arid",
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_253",
+      "name": "Aydınlık Öğle Savanası",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_254",
+      "name": "Kızıl Topraklı Açık Alan",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_255",
+      "name": "Açık Ufuklu Çayır Bölgesi",
+      "category_id": "savanna_grassland",
+      "category_name": "Savana ve Açık Çayırlar",
+      "habitat_tags": [
+        "grassland",
+        "open_plain",
+        "savanna"
+      ],
+      "source_group": "Savana, Ova ve Açık Çayırlar"
+    },
+    {
+      "id": "loc_256",
+      "name": "Yüksek Dağ Yamaçları",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_257",
+      "name": "Kayalık Dağ Geçidi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_258",
+      "name": "Dağ Zirvesi Yakını",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_259",
+      "name": "Alp Çayırları",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "grassland",
+        "highland",
+        "mountain",
+        "open_plain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_260",
+      "name": "Karlı Zirve Etekleri",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "cold",
+        "highland",
+        "mountain",
+        "snow_ice"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_261",
+      "name": "Sisli Dağ Ormanı Üstü",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "misty",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_262",
+      "name": "Dik Kaya Sırtı",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_263",
+      "name": "Uçurum Kenarı Dağlık Bölge",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_264",
+      "name": "Dağ Gölü Çevresi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "freshwater",
+        "highland",
+        "mountain",
+        "riparian"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_265",
+      "name": "Taşlık Zirve Yolu",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_266",
+      "name": "Rüzgarlı Yüksek Plato",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_267",
+      "name": "Yamaç Çayırlığı",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "grassland",
+        "highland",
+        "mountain",
+        "open_plain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_268",
+      "name": "Kayalık Tepe",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_269",
+      "name": "Bulutlara Yakın Zirve Bölgesi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_270",
+      "name": "Dağ Deresi Vadisi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "freshwater",
+        "highland",
+        "mountain",
+        "riparian"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_271",
+      "name": "Kırık Kayalı Sarp Alan",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_272",
+      "name": "Yüksek Rakımlı Açık Düzlük",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_273",
+      "name": "Dağ Ormanı Sınırı",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_274",
+      "name": "Kar Erimesi Geçiş Bölgesi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "cold",
+        "highland",
+        "mountain",
+        "snow_ice"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_275",
+      "name": "Güneşli Dağ Patikası",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_276",
+      "name": "Dar Dağ Geçişi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_277",
+      "name": "Uçurumlu Dağ Kenarı",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_278",
+      "name": "Volkanik Dağ Eteği",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "volcanic"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_279",
+      "name": "Taş ve Ot Karışımı Yamaç",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "cold",
+        "highland",
+        "mountain",
+        "snow_ice"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_280",
+      "name": "Yüksek Çalılık Alan",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "scrub",
+        "shrubland"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_281",
+      "name": "Dağlık Kanyon Girişi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_282",
+      "name": "Buzul Beslemeli Dağ Vadisi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "cold",
+        "highland",
+        "mountain",
+        "snow_ice"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_283",
+      "name": "Kıraç Dağ Tepesi",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_284",
+      "name": "Derin Aşağı Bakan Sarp Uçurum",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_285",
+      "name": "Sabah Sisi İçindeki Dağ Sırtı",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_286",
+      "name": "Akşam Işıklı Dağ Platosu",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_287",
+      "name": "Dondurucu Rüzgarlı Yükseklik",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_288",
+      "name": "Çorak Kayalık Dağ Eteği",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "arid",
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_289",
+      "name": "Orman Üstü Açık Yamaç",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "highland",
+        "mountain"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_290",
+      "name": "Dağ Gölgesindeki Taşlık Alan",
+      "category_id": "mountain_highland",
+      "category_name": "Dağlar ve Yüksek Bölgeler",
+      "habitat_tags": [
+        "freshwater",
+        "highland",
+        "mountain",
+        "riparian",
+        "rocky"
+      ],
+      "source_group": "Dağlar ve Yüksek Bölgeler"
+    },
+    {
+      "id": "loc_291",
+      "name": "Sonsuz Kar Ovası",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "grassland",
+        "open_plain",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_292",
+      "name": "Tundra Düzlüğü",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_293",
+      "name": "Donmuş Göl Kenarı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "freshwater",
+        "polar",
+        "riparian",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_294",
+      "name": "Buzul Yüzeyi",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_295",
+      "name": "Buzul Yarıkları Bölgesi",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_296",
+      "name": "Buz Mağarası Girişi",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cave",
+        "cold",
+        "polar",
+        "snow_ice",
+        "subterranean"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_297",
+      "name": "Kutup Kıyısı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "coast",
+        "cold",
+        "polar",
+        "shore",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_298",
+      "name": "Deniz Buzu Üzeri",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_299",
+      "name": "Kar Fırtınalı Açık Alan",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_300",
+      "name": "Bembeyaz Tundra",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_301",
+      "name": "Kar Kaplı Kayalık Alan",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "rocky",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_302",
+      "name": "Donmuş Nehir Yatağı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "freshwater",
+        "polar",
+        "riparian",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_303",
+      "name": "Kutup Akşamı Açık Alan",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_304",
+      "name": "Kutup Günışığı Altında Düzlük",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_305",
+      "name": "Buz Tabakalı Sahil",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "coast",
+        "cold",
+        "polar",
+        "shore",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_306",
+      "name": "Sert Rüzgarlı Buz Ovası",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "grassland",
+        "open_plain",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_307",
+      "name": "Kutupta Kayalık Kar Geçişi",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "rocky",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_308",
+      "name": "Donmuş Yamaç",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_309",
+      "name": "Mavi Buz Çatlakları",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_310",
+      "name": "Kar Altındaki Düşük Çalılı Alan",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_311",
+      "name": "Kuzey Işıkları Altındaki Kar Alanı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_312",
+      "name": "Karla Kaplı Tepe Sırtı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_313",
+      "name": "Buzlu Kıyı Kayalıkları",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "coast",
+        "cold",
+        "polar",
+        "rocky",
+        "shore",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_314",
+      "name": "Kutup Sisli Düzlük",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "misty",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_315",
+      "name": "Soğuk Kayalık Tundra",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "rocky",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_316",
+      "name": "İnce Kar Tabakalı Taşlık Alan",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "rocky",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_317",
+      "name": "Donmuş Batak Görünümlü Tundra",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "marsh",
+        "polar",
+        "snow_ice",
+        "wetland"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_318",
+      "name": "Kar Yüklü Uçurum Kenarı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_319",
+      "name": "Buzullarla Çevrili Düzlük",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "cold",
+        "polar",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_320",
+      "name": "Kutup Denizi Kıyısındaki Buz Alanı",
+      "category_id": "polar_ice",
+      "category_name": "Kutup, Kar ve Buz",
+      "habitat_tags": [
+        "coast",
+        "cold",
+        "cold_marine",
+        "polar",
+        "polar_marine",
+        "shore",
+        "snow_ice"
+      ],
+      "source_group": "Kutup, Kar ve Buz Dünyası"
+    },
+    {
+      "id": "loc_321",
+      "name": "Yoğun Bataklık Alanı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_322",
+      "name": "Sazlık Sulak Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_323",
+      "name": "Mangrov Ormanı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "brackish",
+        "mangrove",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_324",
+      "name": "Çamurlu Delta Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "muddy",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_325",
+      "name": "Sığ Sulak Ova",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "grassland",
+        "marsh",
+        "open_plain",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_326",
+      "name": "Ağaç Kökleri Su İçindeki Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_327",
+      "name": "Durgun Batak Gölü",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "freshwater",
+        "marsh",
+        "riparian",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_328",
+      "name": "Sisli Bataklık",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "misty",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_329",
+      "name": "Tropik Sulak Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "tropical",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_330",
+      "name": "Mangrov Kanalları",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "brackish",
+        "mangrove",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_331",
+      "name": "Çamurlu Su Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "coast",
+        "muddy",
+        "semi_aquatic",
+        "shore",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_332",
+      "name": "Sazlarla Kaplı Sığ Su",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_333",
+      "name": "Bataklıkta Açık Su Bölümü",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_334",
+      "name": "Yosunlu Sulak Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_335",
+      "name": "Böcek Yoğun Nemli Bataklık",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_336",
+      "name": "Köklerin Yüzeye Çıktığı Mangrov",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "brackish",
+        "mangrove",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_337",
+      "name": "Taşkın Ovası Sulak Bölge",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "grassland",
+        "marsh",
+        "open_plain",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_338",
+      "name": "Sığ Su Çalılıkları",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "scrub",
+        "semi_aquatic",
+        "shrubland",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_339",
+      "name": "Su Basmış Ormanlık Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_340",
+      "name": "Koyu Çamurlu Batak Geçidi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "muddy",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_341",
+      "name": "Kurbağa Sesli Sulak Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_342",
+      "name": "Kuşlu Sazlık Bölgesi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_343",
+      "name": "Batak Ormanı Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_344",
+      "name": "Yarı Açık Yarı Sazlıklı Sulak Saha",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_345",
+      "name": "Geniş Kıyı Bataklığı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "coast",
+        "marsh",
+        "semi_aquatic",
+        "shore",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_346",
+      "name": "Sıcak Hava Altında Sulak Düzlük",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_347",
+      "name": "Küçük Adacıklı Batak Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "marsh",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_348",
+      "name": "Gölle Birleşen Sazlık",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "freshwater",
+        "marsh",
+        "riparian",
+        "semi_aquatic",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_349",
+      "name": "Nemli Mangrov Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "brackish",
+        "coast",
+        "mangrove",
+        "semi_aquatic",
+        "shore",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_350",
+      "name": "Alacakaranlık Bataklık",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "cold",
+        "marsh",
+        "semi_aquatic",
+        "snow_ice",
+        "wetland"
+      ],
+      "source_group": "Bataklık, Mangrov ve Sulak Alanlar"
+    },
+    {
+      "id": "loc_351",
+      "name": "Derin Kanyon Tabanı",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_352",
+      "name": "Dar Kaya Vadisi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_353",
+      "name": "Kızıl Kayalık Kanyon",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_354",
+      "name": "Taşlı Dere Vadisi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "freshwater",
+        "riparian",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_355",
+      "name": "Rüzgar Oyuklu Kaya Geçidi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_356",
+      "name": "Yüksek Duvarlı Kanyon",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_357",
+      "name": "Kuru Vadi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_358",
+      "name": "Gölge Altında Kayalık Koridor",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "freshwater",
+        "riparian",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_359",
+      "name": "Güneş Alan Açık Kanyon",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_360",
+      "name": "Taş Bloklu Dar Geçit",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_361",
+      "name": "Büyük Kayalık Sütunlar Bölgesi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_362",
+      "name": "Kırık Kaya Labirenti",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_363",
+      "name": "Uçurum Kenarlı Vadi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_364",
+      "name": "Erozyonlu Kayalık Alan",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_365",
+      "name": "Kumtaşı Kanyonu",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky",
+        "sandy"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_366",
+      "name": "Bazalt Kayalık Geçiş",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_367",
+      "name": "Çatlaklı Kaya Arazisi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_368",
+      "name": "Yamaç Kayalıkları",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_369",
+      "name": "Taş Obruklu Vadi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_370",
+      "name": "Kanyon İçinde Sığ Su Hattı",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_371",
+      "name": "Kaya Kemerli Geçit",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_372",
+      "name": "Gri Kayalık Sarp Bölge",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_373",
+      "name": "Sıcak Taş Duvarlı Dar Vadi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_374",
+      "name": "Yılanı Andıran Kıvrımlı Kanyon",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_375",
+      "name": "Çorak Kaya Yığını Bölgesi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "arid",
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_376",
+      "name": "Gölgeli Taş Geçit",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "freshwater",
+        "riparian",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_377",
+      "name": "Dik Kaya Basamaklı Arazi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_378",
+      "name": "Yüksek Kayalıklı Açık Plato Kenarı",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "highland",
+        "mountain",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_379",
+      "name": "Kuru Taş Dere Yatağı",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "freshwater",
+        "riparian",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_380",
+      "name": "Doğal Taş Köprü Çevresi",
+      "category_id": "canyon_rock",
+      "category_name": "Kanyon, Vadi ve Kayalıklar",
+      "habitat_tags": [
+        "canyon",
+        "rocky"
+      ],
+      "source_group": "Kanyon, Vadi ve Kayalık Araziler"
+    },
+    {
+      "id": "loc_381",
+      "name": "Derin Karanlık Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "cold",
+        "snow_ice",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_382",
+      "name": "Sarkıt Dikitli Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_383",
+      "name": "Nemli Kireçtaşı Mağarası",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_384",
+      "name": "Yeraltı Gölü Çevresi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "freshwater",
+        "riparian",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_385",
+      "name": "Dar Mağara Tüneli",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_386",
+      "name": "Geniş Mağara Salonu",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_387",
+      "name": "Yarasalı Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_388",
+      "name": "Lav Tüneli",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean",
+        "volcanic"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_389",
+      "name": "Kaygan Taşlı Mağara İçi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_390",
+      "name": "Az Işık Alan Mağara Girişi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_391",
+      "name": "Tam Karanlık Geçit",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "cold",
+        "snow_ice",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_392",
+      "name": "Yeraltı Akarsuyu Yanı",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "cold",
+        "snow_ice",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_393",
+      "name": "Damlama Sulu Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_394",
+      "name": "Soğuk Taş Mağarası",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_395",
+      "name": "Kumlu Mağara Zemini",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "sandy",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_396",
+      "name": "Yarık Kaya Mağarası",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "rocky",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_397",
+      "name": "Nemli Sisli Yeraltı Bölgesi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "misty",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_398",
+      "name": "Tavandan Kök Sarkan Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_399",
+      "name": "Yarasa Kolonisi Bölgesi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_400",
+      "name": "Mavi Tonlu Buzlu Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "cold",
+        "snow_ice",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_401",
+      "name": "Labirent Gibi Yeraltı Geçidi",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_402",
+      "name": "Tavanı Yüksek Boşluklu Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_403",
+      "name": "Sulu Taş Havuzlu Mağara",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_404",
+      "name": "Çöküntülü Mağara Odası",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_405",
+      "name": "Mağara Çıkışına Yakın Yarı Aydınlık Alan",
+      "category_id": "caves_underground",
+      "category_name": "Mağaralar ve Yeraltı",
+      "habitat_tags": [
+        "cave",
+        "subterranean"
+      ],
+      "source_group": "Mağaralar ve Yeraltı Dünyası"
+    },
+    {
+      "id": "loc_406",
+      "name": "Aktif Volkan Eteği",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_407",
+      "name": "Krater Kenarı",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_408",
+      "name": "Eski Lav Akıntısı Alanı",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_409",
+      "name": "Siyah Volkanik Kumluk",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "sandy",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_410",
+      "name": "Buharlı Jeotermal Saha",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_411",
+      "name": "Sıcak Çamur Havuzları Çevresi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "muddy",
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_412",
+      "name": "Kükürtlü Kayalık Bölge",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_413",
+      "name": "Lav Tüpleri Yakını",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_414",
+      "name": "Soğumuş Bazalt Düzlüğü",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_415",
+      "name": "Duman Çıkan Kaya Çatlakları",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_416",
+      "name": "Volkanik Ada İç Bölgesi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_417",
+      "name": "Küllü Arazi Yüzeyi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_418",
+      "name": "Kızıl-Siyah Taş Karışımı Saha",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "cold",
+        "rocky",
+        "snow_ice",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_419",
+      "name": "Sıcak Kaynak Çevresi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_420",
+      "name": "Jeotermal Renkli Zemin",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_421",
+      "name": "Krater Gölü Çevresi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_422",
+      "name": "Taşlaşmış Lav Dalgası Görünümü",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_423",
+      "name": "Volkanik Tepe Sırtı",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_424",
+      "name": "Dumanlı Lav Vadisi",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_425",
+      "name": "Sıcak Buharlı Taş Plato",
+      "category_id": "volcanic_geothermal",
+      "category_name": "Volkanik ve Jeotermal",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "rocky",
+        "volcanic"
+      ],
+      "source_group": "Volkanik ve Jeotermal Bölgeler"
+    },
+    {
+      "id": "loc_426",
+      "name": "Geniş Nehir Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_427",
+      "name": "Dar Dere Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_428",
+      "name": "Tatlı Su Gölü Sahili",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_429",
+      "name": "Şelale Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_430",
+      "name": "Şelale Altı Havuz Çevresi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_431",
+      "name": "Akıntılı Nehir Taşlığı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_432",
+      "name": "Sessiz Göl Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_433",
+      "name": "Orman İçinden Geçen Nehir",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_434",
+      "name": "Çakıllı Dere Yatağı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_435",
+      "name": "Nehir Kıvrımı Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_436",
+      "name": "Sazlı Göl Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "marsh",
+        "riparian",
+        "shore",
+        "wetland"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_437",
+      "name": "Alçak Kıyılı Tatlı Su Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_438",
+      "name": "Yabanıl Doğal Göl Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_439",
+      "name": "Bataklığa Açılan Nehir Ağzı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "marsh",
+        "riparian",
+        "wetland"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_440",
+      "name": "Berrak Dağ Deresi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coastal_water",
+        "freshwater",
+        "highland",
+        "mountain",
+        "riparian",
+        "shallow_water"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_441",
+      "name": "Köklerin Uzandığı Nehir Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_442",
+      "name": "Kumlu Göl Sahili",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "sandy",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_443",
+      "name": "Kayalık Tatlı Su Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "rocky",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_444",
+      "name": "Göl Çevresi Çamurlu Alan",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "muddy",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_445",
+      "name": "Hafif Sisli Sabah Gölü",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "misty",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_446",
+      "name": "Akşam Işığında Nehir Kıyısı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_447",
+      "name": "Şelaleye Giden Ormanlı Patika Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_448",
+      "name": "Yüksek Sazlı Tatlı Su Sahası",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "marsh",
+        "riparian",
+        "wetland"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_449",
+      "name": "Düşük Akıntılı Gölet Kenarı",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "freshwater",
+        "riparian"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_450",
+      "name": "Nehir Kıyısı Açık Otlak Geçişi",
+      "category_id": "water_world",
+      "category_name": "Su Dünyası",
+      "habitat_tags": [
+        "aquatic_edge",
+        "coast",
+        "freshwater",
+        "grassland",
+        "open_plain",
+        "riparian",
+        "shore"
+      ],
+      "source_group": "Nehir Vadileri ve Tatlı Su Kıyıları"
+    },
+    {
+      "id": "loc_451",
+      "name": "Akdeniz Tipi Çalılık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_452",
+      "name": "Dikenli Fundalık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_453",
+      "name": "Kurak Çalılık Alan",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "arid",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_454",
+      "name": "Yarı Kurak Tepe Çalılığı",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "arid",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_455",
+      "name": "Seyrek Ağaçlı Fundalık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_456",
+      "name": "Taşlık Çalılık Yamaç",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "rocky",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_457",
+      "name": "Düşük Boylu Bitkili Açık Alan",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_458",
+      "name": "Çalılarla Kaplı Kuru Geçit",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_459",
+      "name": "Kuru Ot ve Çalı Karışımı Bölge",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "cold",
+        "scrub",
+        "semi_arid",
+        "shrubland",
+        "snow_ice"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_460",
+      "name": "Rüzgarlı Fundalık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_461",
+      "name": "Sıcak Çalılık Koridoru",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_462",
+      "name": "Çalılık Kıyı Geçişi",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "coast",
+        "scrub",
+        "semi_arid",
+        "shore",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_463",
+      "name": "Yabani Çiçekli Fundalık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_464",
+      "name": "Kayalık Makilik Alan",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "rocky",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_465",
+      "name": "Güneşli Alçak Çalılık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_466",
+      "name": "Kuru Dere Çevresi Çalılığı",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_467",
+      "name": "Seyrek Taşlı Maki Bölgesi",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_468",
+      "name": "Aralıklı Bodur Ağaçlar",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_469",
+      "name": "Açık Çalılık Düzlük",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_470",
+      "name": "Hafif Eğimli Fundalık Saha",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_471",
+      "name": "Güneşli Kayalık Çalılık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "rocky",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_472",
+      "name": "Tozlu Yarı Kurak Çalı Zemini",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "arid",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_473",
+      "name": "Dikenli Çalı Kümeleri Alanı",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "sandy",
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_474",
+      "name": "Makilik ve Açık Toprak Karışımı Saha",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "cold",
+        "scrub",
+        "semi_arid",
+        "shrubland",
+        "snow_ice"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_475",
+      "name": "Akşam Işıklı Fundalık",
+      "category_id": "scrub_shrubland",
+      "category_name": "Fundalık ve Çalılıklar",
+      "habitat_tags": [
+        "scrub",
+        "semi_arid",
+        "shrubland"
+      ],
+      "source_group": "Fundalık, Çalılık ve Yarı Kurak Bölgeler"
+    },
+    {
+      "id": "loc_476",
+      "name": "Pembe Tuz Gölü Çevresi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_477",
+      "name": "Dev Kumul Denizi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "sandy",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_478",
+      "name": "Taş Orman Görünümlü Bölge",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_479",
+      "name": "Renkli Kaya Katmanları Vadisi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_480",
+      "name": "Doğal Taş Köprü",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_481",
+      "name": "Dev Kaya Sütunları",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_482",
+      "name": "Jeotermal Renkli Havuz Çevresi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape",
+        "volcanic"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_483",
+      "name": "Beyaz Traverten Terasları",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_484",
+      "name": "Cam Gibi Tuz Düzlüğü",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "arid",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_485",
+      "name": "Büyüleyici Mavi Çukur Göl Çevresi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_486",
+      "name": "Siyah Taş Sahili",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "coast",
+        "shore",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_487",
+      "name": "Kırmızı Kaya Kuleleri",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_488",
+      "name": "Buharlı Renkli Toprak Sahası",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_489",
+      "name": "Kristal Mağara Girişi Çevresi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "cave",
+        "special_landscape",
+        "subterranean"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_490",
+      "name": "Dev Çatlaklı Toprak Platosu",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "highland",
+        "mountain",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_491",
+      "name": "Fosil Görünüm Veren Taş Saha",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_492",
+      "name": "Çok Renkli Çöl Tepeleri",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "arid",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_493",
+      "name": "Gökkuşağı Kayalıkları",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_494",
+      "name": "Bembeyaz Jips Kayalıklar",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_495",
+      "name": "Sıradışı Mantar Kaya Oluşumları",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_496",
+      "name": "Küre Taşlarla Dolu Kıyı",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "coast",
+        "shore",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_497",
+      "name": "Rüzgarla Oyulmuş Anıtsal Kaya Yapıları",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "rocky",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_498",
+      "name": "Safir Renkli Doğal Gölet Çevresi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "freshwater",
+        "riparian",
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_499",
+      "name": "Işığa Göre Renk Değiştiren Mineral Saha",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    },
+    {
+      "id": "loc_500",
+      "name": "Olağanüstü Doğal Oluşumlu Uzak Vadi",
+      "category_id": "extraordinary_nature",
+      "category_name": "Olağanüstü Doğal Alanlar",
+      "habitat_tags": [
+        "special_landscape"
+      ],
+      "source_group": "Egzotik ve Olağanüstü Doğal Alanlar"
+    }
+  ],
+  "audit": {
+    "version": "3.0",
+    "location_count": 500,
+    "category_count": 13,
+    "duplicate_names_fixed": [
+      {
+        "from": "Orman İçi Küçük Dere",
+        "to": "Orman İçi Küçük Dere (Ilıman)"
+      }
+    ],
+    "checks": {
+      "unique_ids": true,
+      "unique_names": true,
+      "all_have_tags": true,
+      "all_have_category": true,
+      "all_water_sources_under_water_world": true
+    }
+  }
+}

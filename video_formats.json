@@ -1,0 +1,237 @@
+{
+  "version": "1.0",
+  "rules": {
+    "short_default_ratio": "9:16",
+    "long_default_ratio": "16:9",
+    "format_and_duration_are_separate": true,
+    "factual_claims_must_be_verified": true,
+    "no_fake_statistics": true,
+    "no_fake_percentages": true,
+    "no_fake_speed_or_bite_force": true
+  },
+  "formats": [
+    {
+      "id": "why",
+      "name": "Neden?",
+      "emoji": "❓",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Tek bir şaşırtıcı özelliğin nedenini merak zinciriyle açıklar.",
+      "prompt_rules": [
+        "Hook sonucu söylememeli; soruyu güçlendirmeli.",
+        "Ana cevap videonun ortasına kadar tamamen verilmemeli.",
+        "Cevap bilimsel/biolojik mekanizmaya dayanmalı.",
+        "Son bölümde ikinci bir şaşırtıcı gerçek eklenebilir."
+      ]
+    },
+    {
+      "id": "human_vs_animal",
+      "name": "İnsan vs Hayvan",
+      "emoji": "⚔️",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "İnsan ile hayvanın fiziksel özelliklerini gerçek verilerle senaryolaştırır.",
+      "prompt_rules": [
+        "Sahte yaşama şansı yüzdesi üretme.",
+        "Kesin sonuç iddiası yerine fiziksel avantajları ve riskleri açıkla.",
+        "Hız, ağırlık, tırmanma/yüzme gibi veriler güvenilir değilse rakam verme.",
+        "Hayvanı kışkırtma veya yaklaşma yönünde öneri verme."
+      ]
+    },
+    {
+      "id": "survival_scenario",
+      "name": "Hayatta Kalma Senaryosu",
+      "emoji": "🏝️",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Doğal ortamda karşılaşma senaryosu üzerinden doğru güvenlik bilgisi anlatır.",
+      "prompt_rules": [
+        "Senaryo doğal habitatla uyumlu olmalı.",
+        "Tehlike davranışlarını sansasyonel değil gerçekçi anlat.",
+        "Güvenlik tavsiyeleri güvenilir genel yaban hayatı ilkelerine dayanmalı.",
+        "Uydurma başarı/ölüm yüzdesi verme."
+      ]
+    },
+    {
+      "id": "interesting_facts",
+      "name": "İlginç Gerçekler",
+      "emoji": "🤯",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Hayvanın doğrulanmış en şaşırtıcı özelliklerini sıralar.",
+      "prompt_rules": [
+        "Her gerçek birbirinden farklı olmalı.",
+        "İnternette yaygın ama doğrulanmamış efsaneleri gerçek gibi verme.",
+        "En güçlü gerçek ilk iki sırada bulunmalı."
+      ]
+    },
+    {
+      "id": "how_powerful",
+      "name": "Ne Kadar Güçlü?",
+      "emoji": "💪",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Boyut, hareket, avlanma, savunma ve fiziksel adaptasyonları inceler.",
+      "prompt_rules": [
+        "Isırma kuvveti gibi tartışmalı metrikleri yalnız güvenilir kaynak varsa kullan.",
+        "Güç kavramını tek bir rakama indirgeme.",
+        "Karşılaştırmalar aynı ölçü biriminde ve bağlamla yapılmalı."
+      ]
+    },
+    {
+      "id": "camera_unbelievable",
+      "name": "Kamera Olmasa İnanmazdın",
+      "emoji": "📹",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Doğada gerçekleşebilecek sıra dışı ama gerçek davranışları işler.",
+      "prompt_rules": [
+        "Gerçekte belgelenmemiş olayı gerçek kayıt varmış gibi sunma.",
+        "AI görsel kullanılıyorsa bunu gerçek kamera kaydı olarak iddia etme.",
+        "Davranış tür için biyolojik olarak mümkün olmalı."
+      ]
+    },
+    {
+      "id": "hunt_strategy",
+      "name": "Avlanma Taktiği",
+      "emoji": "🎯",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Hayvanın avlanma yöntemini aşama aşama anlatır.",
+      "prompt_rules": [
+        "Türün gerçekten kullandığı avlanma davranışlarına bağlı kal.",
+        "Av türü coğrafi olarak uyumlu olmalı.",
+        "Sahne sırası habitat ve aktivite zamanıyla uyumlu olmalı."
+      ]
+    },
+    {
+      "id": "defense_escape",
+      "name": "Savunma ve Kaçış",
+      "emoji": "🛡️",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Hayvanın avcılardan korunma, kamuflaj ve kaçış mekanizmalarını anlatır.",
+      "prompt_rules": [
+        "Savunma mekanizması ile saldırı davranışını karıştırma.",
+        "Kamuflaj/zehir/zırh/hız gibi özellikleri yalnız ilgili türde kullan."
+      ]
+    },
+    {
+      "id": "intelligence",
+      "name": "Zekâ ve Problem Çözme",
+      "emoji": "🧠",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Alet kullanımı, öğrenme, hafıza ve problem çözmeyi işler.",
+      "prompt_rules": [
+        "İnsan IQ'su gibi geçersiz karşılaştırmalar yapma.",
+        "Deney veya gözlem varsa bağlamını koru.",
+        "Bilişsel özelliği tüm türe genellemeden önce kanıt düzeyini belirt."
+      ]
+    },
+    {
+      "id": "myth_fact",
+      "name": "Efsane mi Gerçek mi?",
+      "emoji": "🧪",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Hayvanla ilgili popüler bir iddiayı doğrular veya düzeltir.",
+      "prompt_rules": [
+        "İddiayı açıkça tanımla.",
+        "Doğru/yanlış sonucunu kanıta dayandır.",
+        "Kısmen doğruysa nüansı koru."
+      ]
+    },
+    {
+      "id": "comparison",
+      "name": "Hayvan vs Hayvan",
+      "emoji": "🆚",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "İki hayvanı boyut, hız, habitat, avlanma ve adaptasyon açısından karşılaştırır.",
+      "prompt_rules": [
+        "Kurgusal dövüş sonucu ilan etme.",
+        "Aynı metriği aynı koşullarda karşılaştır.",
+        "Farklı habitatlardan türleri doğal olarak karşılaşacakmış gibi sunma."
+      ]
+    },
+    {
+      "id": "day_in_life",
+      "name": "Bir Günü Nasıl Geçiyor?",
+      "emoji": "🌅",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Hayvanın doğal günlük yaşamını kronolojik anlatır.",
+      "prompt_rules": [
+        "Aktivite zamanı türün biyolojisine uygun olmalı.",
+        "Beslenme, dinlenme ve sosyal davranışlar doğal habitatla tutarlı olmalı."
+      ]
+    },
+    {
+      "id": "baby_lifecycle",
+      "name": "Doğumdan Yetişkinliğe",
+      "emoji": "🐣",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Yavru gelişimi ve yaşam döngüsünü anlatır.",
+      "prompt_rules": [
+        "Gebelik/kuluçka ve yavru gelişim sürelerini uydurma.",
+        "Cinsel olgunluk ile tam fiziksel büyümeyi karıştırma."
+      ]
+    },
+    {
+      "id": "rare_behavior",
+      "name": "Nadir Davranış",
+      "emoji": "👀",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Az bilinen, belgelenmiş davranışları öne çıkarır.",
+      "prompt_rules": [
+        "Tekil gözlemi türün standart davranışı gibi sunma.",
+        "Nadirlik iddiası için güvenilir kaynak yoksa 'az bilinen' de."
+      ]
+    },
+    {
+      "id": "documentary",
+      "name": "Mini Belgesel",
+      "emoji": "🎬",
+      "lengths": [
+        "short",
+        "long"
+      ],
+      "description": "Habitat, davranış ve yaşam döngüsünü hikâye akışıyla birleştirir.",
+      "prompt_rules": [
+        "Hikâye akışı gerçek biyolojik davranıştan sapmamalı.",
+        "Uzun videoda bölümler arası yeniden merak noktaları kur."
+      ]
+    }
+  ]
+}

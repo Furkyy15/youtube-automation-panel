@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "title_rules": [
+    "3 alternatif başlık üret.",
+    "Başlıklar kısa, merak uyandırıcı ve tekrarsız olsun.",
+    "Hayvan adı gerekiyorsa en güçlü versiyonda kullan, ama merakı öldürme.",
+    "Abartılı yalan, sahte rakam veya doğrulanmamış iddia kullanma."
+  ],
+  "thumbnail_rules": [
+    "3 thumbnail hook önerisi ver.",
+    "Her birinde ana görsel fikri, kapak üstü kısa yazı ve duygu hedefi ver.",
+    "Kapak yazısı 2-5 kelime aralığında olsun.",
+    "Tek bakışta anlaşılır ve yüksek merak odaklı olsun."
+  ],
+  "first3sec_rules": [
+    "0.0-0.7 sn durduran kare",
+    "0.7-1.8 sn soru/şok cümlesi",
+    "1.8-3.0 sn cevabı açmadan gerilimi sürdürme",
+    "İlk 3 saniyede izleyiciyi sonraki bilgiye taşı"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "long_video": {
+    "mode": "real_only",
+    "label": "Gerçek telifsiz fotoğraf + video",
+    "description": "Uzun videoda yalnızca gerçek, telifsiz veya açık lisanslı medya planı kullanılır."
+  },
+  "shorts": [
+    {
+      "id": "real",
+      "label": "Gerçek fotoğraf + video",
+      "description": "Telifsiz veya açık lisanslı gerçek medya planı."
+    },
+    {
+      "id": "ai",
+      "label": "Yapay zeka fotoğraf + video",
+      "description": "Fotogerçekçi AI görsel/video üretim prompt paketi."
+    }
+  ],
+  "source_families": [
+    "Pexels",
+    "Pixabay",
+    "Wikimedia Commons",
+    "Smithsonian Open Access",
+    "NOAA Photo Library",
+    "USFWS",
+    "NPS",
+    "public-domain government and museum archives"
+  ]
+}

@@ -1,0 +1,1262 @@
+{
+  "version": "1.0",
+  "ranking_note": "featured sırası YouTube içerik potansiyeli, bilinirlik ve görsel dikkat çekicilik için küratörlü öncelik sırasıdır; gerçek zamanlı izlenme metriği değildir.",
+  "groups": [
+    {
+      "id": "felidae",
+      "name": "Kedigiller",
+      "emoji": "🐆",
+      "taxa": [
+        "Felidae"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Jaguar",
+          "scientific_name": "Panthera onca",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Aslan",
+          "scientific_name": "Panthera leo",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Kaplan",
+          "scientific_name": "Panthera tigris",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Leopar",
+          "scientific_name": "Panthera pardus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Çita",
+          "scientific_name": "Acinonyx jubatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Puma",
+          "scientific_name": "Puma concolor",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Kar Leoparı",
+          "scientific_name": "Panthera uncia",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Vaşak",
+          "scientific_name": "Lynx lynx",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Karakulak",
+          "scientific_name": "Caracal caracal",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        },
+        {
+          "rank": 10,
+          "display_name": "Serval",
+          "scientific_name": "Leptailurus serval",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 59
+        },
+        {
+          "rank": 11,
+          "display_name": "Ocelot",
+          "scientific_name": "Leopardus pardalis",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 58
+        },
+        {
+          "rank": 12,
+          "display_name": "Balıkçı Kedi",
+          "scientific_name": "Prionailurus viverrinus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 57
+        }
+      ]
+    },
+    {
+      "id": "canidae",
+      "name": "Köpekgiller",
+      "emoji": "🐺",
+      "taxa": [
+        "Canidae"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Kurt",
+          "scientific_name": "Canis lupus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Kızıl Tilki",
+          "scientific_name": "Vulpes vulpes",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Afrika Yaban Köpeği",
+          "scientific_name": "Lycaon pictus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Çakal",
+          "scientific_name": "Canis aureus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Koyote",
+          "scientific_name": "Canis latrans",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Kutup Tilkisi",
+          "scientific_name": "Vulpes lagopus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Fennek",
+          "scientific_name": "Vulpes zerda",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Maned Wolf",
+          "scientific_name": "Chrysocyon brachyurus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Dhole",
+          "scientific_name": "Cuon alpinus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        }
+      ]
+    },
+    {
+      "id": "ursidae",
+      "name": "Ayıgiller",
+      "emoji": "🐻",
+      "taxa": [
+        "Ursidae"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Kutup Ayısı",
+          "scientific_name": "Ursus maritimus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Boz Ayı",
+          "scientific_name": "Ursus arctos",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Amerikan Kara Ayısı",
+          "scientific_name": "Ursus americanus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Dev Panda",
+          "scientific_name": "Ailuropoda melanoleuca",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Güneş Ayısı",
+          "scientific_name": "Helarctos malayanus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Tembel Ayı",
+          "scientific_name": "Melursus ursinus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Gözlüklü Ayı",
+          "scientific_name": "Tremarctos ornatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Asya Kara Ayısı",
+          "scientific_name": "Ursus thibetanus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        }
+      ]
+    },
+    {
+      "id": "primates",
+      "name": "Primatlar",
+      "emoji": "🦍",
+      "taxa": [
+        "Primates"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Goril",
+          "scientific_name": "Gorilla gorilla",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Şempanze",
+          "scientific_name": "Pan troglodytes",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Orangutan",
+          "scientific_name": "Pongo pygmaeus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Babun",
+          "scientific_name": "Papio anubis",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Hortumlu Maymun",
+          "scientific_name": "Nasalis larvatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Mandril",
+          "scientific_name": "Mandrillus sphinx",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Japon Makağı",
+          "scientific_name": "Macaca fuscata",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Lemur",
+          "scientific_name": "Lemur catta",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Gibon",
+          "scientific_name": "Hylobates lar",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        }
+      ]
+    },
+    {
+      "id": "rodentia",
+      "name": "Kemirgenler",
+      "emoji": "🐹",
+      "taxa": [
+        "Rodentia"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Kapibara",
+          "scientific_name": "Hydrochoerus hydrochaeris",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Kunduz",
+          "scientific_name": "Castor fiber",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Kirpi Fare",
+          "scientific_name": "Hystrix cristata",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Marmot",
+          "scientific_name": "Marmota marmota",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Sincap",
+          "scientific_name": "Sciurus vulgaris",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Çinçilla",
+          "scientific_name": "Chinchilla lanigera",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Çıplak Köstebek Faresi",
+          "scientific_name": "Heterocephalus glaber",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Aguti",
+          "scientific_name": "Dasyprocta aguti",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        }
+      ]
+    },
+    {
+      "id": "reptilia",
+      "name": "Sürüngenler",
+      "emoji": "🦎",
+      "taxa": [
+        "Reptilia"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Komodo Ejderi",
+          "scientific_name": "Varanus komodoensis",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Kral Kobra",
+          "scientific_name": "Ophiophagus hannah",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Yeşil Anakonda",
+          "scientific_name": "Eunectes murinus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Nil Timsahı",
+          "scientific_name": "Crocodylus niloticus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Tuzlu Su Timsahı",
+          "scientific_name": "Crocodylus porosus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Birmanya Pitonu",
+          "scientific_name": "Python bivittatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Kara Mamba",
+          "scientific_name": "Dendroaspis polylepis",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Gila Canavarı",
+          "scientific_name": "Heloderma suspectum",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Deniz İguanası",
+          "scientific_name": "Amblyrhynchus cristatus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        },
+        {
+          "rank": 10,
+          "display_name": "Yeşil İguana",
+          "scientific_name": "Iguana iguana",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 59
+        },
+        {
+          "rank": 11,
+          "display_name": "Panter Bukalemun",
+          "scientific_name": "Furcifer pardalis",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 58
+        },
+        {
+          "rank": 12,
+          "display_name": "Dev Galapagos Kaplumbağası",
+          "scientific_name": "Chelonoidis niger",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 57
+        },
+        {
+          "rank": 13,
+          "display_name": "Yeşil Deniz Kaplumbağası",
+          "scientific_name": "Chelonia mydas",
+          "content_tier": "niche",
+          "content_label": "◦ Niş",
+          "content_score": 40
+        },
+        {
+          "rank": 14,
+          "display_name": "Çıngıraklı Yılan",
+          "scientific_name": "Crotalus atrox",
+          "content_tier": "niche",
+          "content_label": "◦ Niş",
+          "content_score": 39
+        },
+        {
+          "rank": 15,
+          "display_name": "Boynuzlu Engerek",
+          "scientific_name": "Cerastes cerastes",
+          "content_tier": "niche",
+          "content_label": "◦ Niş",
+          "content_score": 38
+        }
+      ]
+    },
+    {
+      "id": "amphibia",
+      "name": "Amfibiler",
+      "emoji": "🐸",
+      "taxa": [
+        "Amphibia"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Aksolotl",
+          "scientific_name": "Ambystoma mexicanum",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Zehirli Ok Kurbağası",
+          "scientific_name": "Dendrobates tinctorius",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Goliath Kurbağası",
+          "scientific_name": "Conraua goliath",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Kırmızı Gözlü Ağaç Kurbağası",
+          "scientific_name": "Agalychnis callidryas",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Ateş Semenderi",
+          "scientific_name": "Salamandra salamandra",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Dev Çin Semenderi",
+          "scientific_name": "Andrias davidianus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Cam Kurbağa",
+          "scientific_name": "Hyalinobatrachium fleischmanni",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "name": "Kuşlar",
+      "emoji": "🦅",
+      "taxa": [
+        "Aves"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Kel Kartal",
+          "scientific_name": "Haliaeetus leucocephalus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Gökdoğan",
+          "scientific_name": "Falco peregrinus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Kuzgun",
+          "scientific_name": "Corvus corax",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Peçeli Baykuş",
+          "scientific_name": "Tyto alba",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Tukan",
+          "scientific_name": "Ramphastos toco",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Kızıl Ara",
+          "scientific_name": "Ara macao",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "İmparator Penguen",
+          "scientific_name": "Aptenodytes forsteri",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Devekuşu",
+          "scientific_name": "Struthio camelus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Flamingo",
+          "scientific_name": "Phoenicopterus roseus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        },
+        {
+          "rank": 10,
+          "display_name": "Kutup Baykuşu",
+          "scientific_name": "Bubo scandiacus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 59
+        },
+        {
+          "rank": 11,
+          "display_name": "Harpy Kartalı",
+          "scientific_name": "Harpia harpyja",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 58
+        },
+        {
+          "rank": 12,
+          "display_name": "Kivi",
+          "scientific_name": "Apteryx australis",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 57
+        }
+      ]
+    },
+    {
+      "id": "marine_mammals",
+      "name": "Deniz Memelileri",
+      "emoji": "🐋",
+      "taxa": [
+        "Cetacea",
+        "Sirenia",
+        "Pinnipedia"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Orka",
+          "scientific_name": "Orcinus orca",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Mavi Balina",
+          "scientific_name": "Balaenoptera musculus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Kambur Balina",
+          "scientific_name": "Megaptera novaeangliae",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "İspermeçet Balinası",
+          "scientific_name": "Physeter macrocephalus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Şişe Burunlu Yunus",
+          "scientific_name": "Tursiops truncatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Narval",
+          "scientific_name": "Monodon monoceros",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Beluga",
+          "scientific_name": "Delphinapterus leucas",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Mors",
+          "scientific_name": "Odobenus rosmarus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Deniz Aslanı",
+          "scientific_name": "Zalophus californianus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        },
+        {
+          "rank": 10,
+          "display_name": "Manati",
+          "scientific_name": "Trichechus manatus",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 59
+        },
+        {
+          "rank": 11,
+          "display_name": "Dugong",
+          "scientific_name": "Dugong dugon",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 58
+        }
+      ]
+    },
+    {
+      "id": "chondrichthyes",
+      "name": "Köpekbalıkları ve Vatozlar",
+      "emoji": "🦈",
+      "taxa": [
+        "Chondrichthyes"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Büyük Beyaz Köpekbalığı",
+          "scientific_name": "Carcharodon carcharias",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Balina Köpekbalığı",
+          "scientific_name": "Rhincodon typus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Kaplan Köpekbalığı",
+          "scientific_name": "Galeocerdo cuvier",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Büyük Çekiçbaş",
+          "scientific_name": "Sphyrna mokarran",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Boğa Köpekbalığı",
+          "scientific_name": "Carcharhinus leucas",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Mako",
+          "scientific_name": "Isurus oxyrinchus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Dev Manta",
+          "scientific_name": "Mobula birostris",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Testere Balığı",
+          "scientific_name": "Pristis pristis",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Goblin Köpekbalığı",
+          "scientific_name": "Mitsukurina owstoni",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        }
+      ]
+    },
+    {
+      "id": "actinopterygii",
+      "name": "Kemikli Balıklar",
+      "emoji": "🐟",
+      "taxa": [
+        "Actinopterygii"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Pirana",
+          "scientific_name": "Pygocentrus nattereri",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Elektrikli Yılan Balığı",
+          "scientific_name": "Electrophorus electricus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Müren",
+          "scientific_name": "Muraena helena",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Palyaço Balığı",
+          "scientific_name": "Amphiprion ocellaris",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Aslan Balığı",
+          "scientific_name": "Pterois volitans",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Mavi Marlin",
+          "scientific_name": "Makaira nigricans",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Okyanus Güneş Balığı",
+          "scientific_name": "Mola mola",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Coelacanth",
+          "scientific_name": "Latimeria chalumnae",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        }
+      ]
+    },
+    {
+      "id": "insecta",
+      "name": "Böcekler",
+      "emoji": "🦋",
+      "taxa": [
+        "Insecta"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Peygamberdevesi",
+          "scientific_name": "Mantis religiosa",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Bal Arısı",
+          "scientific_name": "Apis mellifera",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Atlas Güvesi",
+          "scientific_name": "Attacus atlas",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Monark Kelebeği",
+          "scientific_name": "Danaus plexippus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Gergedan Böceği",
+          "scientific_name": "Oryctes nasicornis",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Herkül Böceği",
+          "scientific_name": "Dynastes hercules",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Yusufçuk",
+          "scientific_name": "Anax imperator",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        },
+        {
+          "rank": 8,
+          "display_name": "Ateşböceği",
+          "scientific_name": "Lampyridae",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 61
+        },
+        {
+          "rank": 9,
+          "display_name": "Bombardıman Böceği",
+          "scientific_name": "Brachinus crepitans",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 60
+        },
+        {
+          "rank": 10,
+          "display_name": "Yaprak Böceği",
+          "scientific_name": "Phyllium giganteum",
+          "content_tier": "medium",
+          "content_label": "• İyi",
+          "content_score": 59
+        }
+      ]
+    },
+    {
+      "id": "arachnida",
+      "name": "Örümceğimsiler",
+      "emoji": "🕷️",
+      "taxa": [
+        "Arachnida"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Goliath Kuş Yiyen Tarantula",
+          "scientific_name": "Theraphosa blondi",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Kara Dul",
+          "scientific_name": "Latrodectus mactans",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Brezilya Gezgin Örümceği",
+          "scientific_name": "Phoneutria nigriventer",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "İmparator Akrep",
+          "scientific_name": "Pandinus imperator",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Ölümcül Akrep",
+          "scientific_name": "Leiurus quinquestriatus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Deve Örümceği",
+          "scientific_name": "Solifugae",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Kamçı Akrebi",
+          "scientific_name": "Uropygi",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        }
+      ]
+    },
+    {
+      "id": "mollusca",
+      "name": "Yumuşakçalar",
+      "emoji": "🐙",
+      "taxa": [
+        "Mollusca"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Dev Pasifik Ahtapotu",
+          "scientific_name": "Enteroctopus dofleini",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Mavi Halkalı Ahtapot",
+          "scientific_name": "Hapalochlaena lunulata",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Dev Kalamar",
+          "scientific_name": "Architeuthis dux",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Mürekkep Balığı",
+          "scientific_name": "Sepia officinalis",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Nautilus",
+          "scientific_name": "Nautilus pompilius",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Dev Afrika Salyangozu",
+          "scientific_name": "Lissachatina fulica",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        },
+        {
+          "rank": 7,
+          "display_name": "Coğrafya Konisi",
+          "scientific_name": "Conus geographus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 76
+        }
+      ]
+    },
+    {
+      "id": "crustacea",
+      "name": "Kabuklular",
+      "emoji": "🦀",
+      "taxa": [
+        "Crustacea"
+      ],
+      "featured": [
+        {
+          "rank": 1,
+          "display_name": "Japon Örümcek Yengeci",
+          "scientific_name": "Macrocheira kaempferi",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 95
+        },
+        {
+          "rank": 2,
+          "display_name": "Hindistan Cevizi Yengeci",
+          "scientific_name": "Birgus latro",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 94
+        },
+        {
+          "rank": 3,
+          "display_name": "Amerikan Istakozu",
+          "scientific_name": "Homarus americanus",
+          "content_tier": "very_high",
+          "content_label": "🔥 Çok Güçlü",
+          "content_score": 93
+        },
+        {
+          "rank": 4,
+          "display_name": "Mantis Karidesi",
+          "scientific_name": "Odontodactylus scyllarus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 79
+        },
+        {
+          "rank": 5,
+          "display_name": "Kral Yengeç",
+          "scientific_name": "Paralithodes camtschaticus",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 78
+        },
+        {
+          "rank": 6,
+          "display_name": "Hermit Yengeci",
+          "scientific_name": "Paguroidea",
+          "content_tier": "high",
+          "content_label": "⭐ Güçlü",
+          "content_score": 77
+        }
+      ]
+    }
+  ]
+}

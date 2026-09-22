@@ -1,0 +1,1280 @@
+{
+  "version": "2.0",
+  "animals": [
+    {
+      "display_name": "jaguar",
+      "scientific_name": "Panthera onca",
+      "aliases": [
+        "jaguar"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "aslan",
+      "scientific_name": "Panthera leo",
+      "aliases": [
+        "aslan",
+        "lion"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kaplan",
+      "scientific_name": "Panthera tigris",
+      "aliases": [
+        "kaplan",
+        "tiger"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "leopar",
+      "scientific_name": "Panthera pardus",
+      "aliases": [
+        "leopar",
+        "pars",
+        "leopard"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "çita",
+      "scientific_name": "Acinonyx jubatus",
+      "aliases": [
+        "çita",
+        "cita",
+        "cheetah"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "puma",
+      "scientific_name": "Puma concolor",
+      "aliases": [
+        "puma",
+        "dağ aslanı",
+        "dag aslani",
+        "cougar"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "vaşak",
+      "scientific_name": "Lynx lynx",
+      "aliases": [
+        "vaşak",
+        "vasak",
+        "lynx"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "karakulak",
+      "scientific_name": "Caracal caracal",
+      "aliases": [
+        "karakulak",
+        "caracal"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "boz ayı",
+      "scientific_name": "Ursus arctos",
+      "aliases": [
+        "boz ayı",
+        "boz ayi",
+        "brown bear"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kutup ayısı",
+      "scientific_name": "Ursus maritimus",
+      "aliases": [
+        "kutup ayısı",
+        "kutup ayisi",
+        "polar bear"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "panda",
+      "scientific_name": "Ailuropoda melanoleuca",
+      "aliases": [
+        "panda",
+        "dev panda",
+        "giant panda"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kurt",
+      "scientific_name": "Canis lupus",
+      "aliases": [
+        "kurt",
+        "bozkurt",
+        "wolf"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kızıl tilki",
+      "scientific_name": "Vulpes vulpes",
+      "aliases": [
+        "tilki",
+        "kızıl tilki",
+        "kizil tilki",
+        "fox"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "çakal",
+      "scientific_name": "Canis aureus",
+      "aliases": [
+        "çakal",
+        "cakal",
+        "golden jackal"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "sırtlan",
+      "scientific_name": "Crocuta crocuta",
+      "aliases": [
+        "sırtlan",
+        "sirtlan",
+        "hyena"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "afrika fili",
+      "scientific_name": "Loxodonta africana",
+      "aliases": [
+        "afrika fili",
+        "elephant"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "asya fili",
+      "scientific_name": "Elephas maximus",
+      "aliases": [
+        "asya fili",
+        "asian elephant"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "zürafa",
+      "scientific_name": "Giraffa camelopardalis",
+      "aliases": [
+        "zürafa",
+        "zurafa",
+        "giraffe"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "zebra",
+      "scientific_name": "Equus quagga",
+      "aliases": [
+        "zebra"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "su aygırı",
+      "scientific_name": "Hippopotamus amphibius",
+      "aliases": [
+        "su aygırı",
+        "su aygiri",
+        "hipopotam",
+        "hippo"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "gergedan",
+      "scientific_name": "Ceratotherium simum",
+      "aliases": [
+        "beyaz gergedan"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "afrika mandası",
+      "scientific_name": "Syncerus caffer",
+      "aliases": [
+        "afrika mandası",
+        "afrika mandasi",
+        "buffalo"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "deve",
+      "scientific_name": "Camelus dromedarius",
+      "aliases": [
+        "deve",
+        "camel",
+        "tek hörgüçlü deve",
+        "tek horguclu deve"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "lama",
+      "scientific_name": "Lama glama",
+      "aliases": [
+        "lama"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "alpaka",
+      "scientific_name": "Vicugna pacos",
+      "aliases": [
+        "alpaka",
+        "alpaca"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "geyik",
+      "scientific_name": "Cervus elaphus",
+      "aliases": [
+        "red deer"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ren geyiği",
+      "scientific_name": "Rangifer tarandus",
+      "aliases": [
+        "ren geyiği",
+        "ren geyigi",
+        "reindeer"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "yaban domuzu",
+      "scientific_name": "Sus scrofa",
+      "aliases": [
+        "yaban domuzu",
+        "wild boar"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kapibara",
+      "scientific_name": "Hydrochoerus hydrochaeris",
+      "aliases": [
+        "kapibara",
+        "capybara"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kunduz",
+      "scientific_name": "Castor fiber",
+      "aliases": [
+        "kunduz",
+        "beaver"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "su samuru",
+      "scientific_name": "Lutra lutra",
+      "aliases": [
+        "su samuru",
+        "otter"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "rakun",
+      "scientific_name": "Procyon lotor",
+      "aliases": [
+        "rakun",
+        "raccoon"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kokarca",
+      "scientific_name": "Mephitis mephitis",
+      "aliases": [
+        "kokarca",
+        "skunk"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "tembel hayvan",
+      "scientific_name": "Bradypus variegatus",
+      "aliases": [
+        "tembel hayvan",
+        "sloth"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "karıncayiyen",
+      "scientific_name": "Myrmecophaga tridactyla",
+      "aliases": [
+        "karıncayiyen",
+        "karinca yiyen",
+        "giant anteater"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "armadillo",
+      "scientific_name": "Dasypus novemcinctus",
+      "aliases": [
+        "armadillo"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "goril",
+      "scientific_name": "Gorilla gorilla",
+      "aliases": [
+        "goril",
+        "gorilla"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "şempanze",
+      "scientific_name": "Pan troglodytes",
+      "aliases": [
+        "şempanze",
+        "sempanze",
+        "chimpanzee"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "orangutan",
+      "scientific_name": "Pongo pygmaeus",
+      "aliases": [
+        "orangutan"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "babun",
+      "scientific_name": "Papio anubis",
+      "aliases": [
+        "babun",
+        "baboon"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "makak",
+      "scientific_name": "Macaca mulatta",
+      "aliases": [
+        "makak",
+        "macaque"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "hortumlu maymun",
+      "scientific_name": "Nasalis larvatus",
+      "aliases": [
+        "hortumlu maymun",
+        "proboscis monkey"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "koala",
+      "scientific_name": "Phascolarctos cinereus",
+      "aliases": [
+        "koala"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kanguru",
+      "scientific_name": "Macropus giganteus",
+      "aliases": [
+        "kanguru",
+        "kangaroo"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "vombat",
+      "scientific_name": "Vombatus ursinus",
+      "aliases": [
+        "vombat",
+        "wombat"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "tazmanya canavarı",
+      "scientific_name": "Sarcophilus harrisii",
+      "aliases": [
+        "tazmanya canavarı",
+        "tazmanya canavari",
+        "tasmanian devil"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ornitorenk",
+      "scientific_name": "Ornithorhynchus anatinus",
+      "aliases": [
+        "ornitorenk",
+        "platypus"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ekidne",
+      "scientific_name": "Tachyglossus aculeatus",
+      "aliases": [
+        "ekidne",
+        "echidna"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "büyük beyaz köpekbalığı",
+      "scientific_name": "Carcharodon carcharias",
+      "aliases": [
+        "büyük beyaz köpekbalığı",
+        "buyuk beyaz kopekbaligi",
+        "great white shark"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kaplan köpekbalığı",
+      "scientific_name": "Galeocerdo cuvier",
+      "aliases": [
+        "kaplan köpekbalığı",
+        "kaplan kopekbaligi",
+        "tiger shark"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "çekiçbaş köpekbalığı",
+      "scientific_name": "Sphyrna mokarran",
+      "aliases": [
+        "çekiçbaş köpekbalığı",
+        "cekicbas kopekbaligi",
+        "hammerhead shark"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "balina köpekbalığı",
+      "scientific_name": "Rhincodon typus",
+      "aliases": [
+        "balina köpekbalığı",
+        "balina kopekbaligi",
+        "whale shark"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "orka",
+      "scientific_name": "Orcinus orca",
+      "aliases": [
+        "orka",
+        "katil balina",
+        "killer whale"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kambur balina",
+      "scientific_name": "Megaptera novaeangliae",
+      "aliases": [
+        "kambur balina",
+        "humpback whale"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "mavi balina",
+      "scientific_name": "Balaenoptera musculus",
+      "aliases": [
+        "mavi balina",
+        "blue whale"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ispermeçet balinası",
+      "scientific_name": "Physeter macrocephalus",
+      "aliases": [
+        "ispermeçet balinası",
+        "ispermeçet",
+        "sperm whale"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "şişe burunlu yunus",
+      "scientific_name": "Tursiops truncatus",
+      "aliases": [
+        "yunus",
+        "şişe burunlu yunus",
+        "sise burunlu yunus",
+        "dolphin"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "manati",
+      "scientific_name": "Trichechus manatus",
+      "aliases": [
+        "manati",
+        "manatee"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "dugong",
+      "scientific_name": "Dugong dugon",
+      "aliases": [
+        "dugong"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "mors",
+      "scientific_name": "Odobenus rosmarus",
+      "aliases": [
+        "mors",
+        "walrus"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "fok",
+      "scientific_name": "Phoca vitulina",
+      "aliases": [
+        "fok",
+        "seal"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "deniz aslanı",
+      "scientific_name": "Zalophus californianus",
+      "aliases": [
+        "deniz aslanı",
+        "deniz aslani",
+        "sea lion"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ahtapot",
+      "scientific_name": "Octopus vulgaris",
+      "aliases": [
+        "ahtapot",
+        "octopus"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "dev pasifik ahtapotu",
+      "scientific_name": "Enteroctopus dofleini",
+      "aliases": [
+        "dev pasifik ahtapotu",
+        "giant pacific octopus"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kalamar",
+      "scientific_name": "Loligo vulgaris",
+      "aliases": [
+        "kalamar",
+        "squid"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "mürekkep balığı",
+      "scientific_name": "Sepia officinalis",
+      "aliases": [
+        "mürekkep balığı",
+        "murekkep baligi",
+        "cuttlefish"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "denizanası",
+      "scientific_name": "Aurelia aurita",
+      "aliases": [
+        "denizanası",
+        "denizanasi",
+        "jellyfish"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "denizyıldızı",
+      "scientific_name": "Asterias rubens",
+      "aliases": [
+        "denizyıldızı",
+        "denizyildizi",
+        "starfish"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "denizatı",
+      "scientific_name": "Hippocampus hippocampus",
+      "aliases": [
+        "denizatı",
+        "denizati",
+        "seahorse"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "müren",
+      "scientific_name": "Muraena helena",
+      "aliases": [
+        "müren",
+        "muren",
+        "moray eel"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "elektrikli yılan balığı",
+      "scientific_name": "Electrophorus electricus",
+      "aliases": [
+        "elektrikli yılan balığı",
+        "elektrikli yilan baligi",
+        "electric eel"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "pirana",
+      "scientific_name": "Pygocentrus nattereri",
+      "aliases": [
+        "pirana",
+        "piranha"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "timsah",
+      "scientific_name": "Crocodylus niloticus",
+      "aliases": [
+        "timsah",
+        "crocodile"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "alligator",
+      "scientific_name": "Alligator mississippiensis",
+      "aliases": [
+        "alligator",
+        "aligator"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "komodo ejderi",
+      "scientific_name": "Varanus komodoensis",
+      "aliases": [
+        "komodo ejderi",
+        "komodo dragon"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "iguana",
+      "scientific_name": "Iguana iguana",
+      "aliases": [
+        "iguana"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "bukalemun",
+      "scientific_name": "Chamaeleo chamaeleon",
+      "aliases": [
+        "bukalemun",
+        "chameleon"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "geko",
+      "scientific_name": "Gekko gecko",
+      "aliases": [
+        "geko",
+        "gecko"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kobra",
+      "scientific_name": "Naja naja",
+      "aliases": [
+        "kobra",
+        "cobra"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kral kobra",
+      "scientific_name": "Ophiophagus hannah",
+      "aliases": [
+        "kral kobra",
+        "king cobra"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "anakonda",
+      "scientific_name": "Eunectes murinus",
+      "aliases": [
+        "anakonda",
+        "anaconda"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "piton",
+      "scientific_name": "Python bivittatus",
+      "aliases": [
+        "piton",
+        "python"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "çıngıraklı yılan",
+      "scientific_name": "Crotalus atrox",
+      "aliases": [
+        "çıngıraklı yılan",
+        "cingirakli yilan",
+        "rattlesnake"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "deniz kaplumbağası",
+      "scientific_name": "Chelonia mydas",
+      "aliases": [
+        "deniz kaplumbağası",
+        "deniz kaplumbagasi",
+        "green sea turtle"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "dev galapagos kaplumbağası",
+      "scientific_name": "Chelonoidis niger",
+      "aliases": [
+        "galapagos kaplumbağası",
+        "galapagos kaplumbagasi",
+        "giant tortoise"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kartal",
+      "scientific_name": "Aquila chrysaetos",
+      "aliases": [
+        "golden eagle"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kel kartal",
+      "scientific_name": "Haliaeetus leucocephalus",
+      "aliases": [
+        "kel kartal",
+        "bald eagle"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "şahin",
+      "scientific_name": "Buteo buteo",
+      "aliases": [
+        "şahin",
+        "sahin",
+        "hawk"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "doğan",
+      "scientific_name": "Falco peregrinus",
+      "aliases": [
+        "doğan",
+        "dogan",
+        "peregrine falcon"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "baykuş",
+      "scientific_name": "Bubo bubo",
+      "aliases": [],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "karga",
+      "scientific_name": "Corvus corax",
+      "aliases": [
+        "raven",
+        "kuzgun"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "saksağan",
+      "scientific_name": "Pica pica",
+      "aliases": [
+        "saksağan",
+        "saksagan",
+        "magpie"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "papağan",
+      "scientific_name": "Ara macao",
+      "aliases": [],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "tukan",
+      "scientific_name": "Ramphastos toco",
+      "aliases": [
+        "tukan",
+        "toucan"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "flamingo",
+      "scientific_name": "Phoenicopterus roseus",
+      "aliases": [
+        "flamingo"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "penguen",
+      "scientific_name": "Aptenodytes forsteri",
+      "aliases": [
+        "imparator penguen"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "devekuşu",
+      "scientific_name": "Struthio camelus",
+      "aliases": [
+        "devekuşu",
+        "devekusu",
+        "ostrich"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "emu",
+      "scientific_name": "Dromaius novaehollandiae",
+      "aliases": [
+        "emu"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "pelikan",
+      "scientific_name": "Pelecanus onocrotalus",
+      "aliases": [
+        "pelikan",
+        "pelican"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "leylek",
+      "scientific_name": "Ciconia ciconia",
+      "aliases": [
+        "leylek",
+        "stork"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "balıkçıl",
+      "scientific_name": "Ardea cinerea",
+      "aliases": [
+        "balıkçıl",
+        "balikcil",
+        "heron"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "arı",
+      "scientific_name": "Apis mellifera",
+      "aliases": [
+        "arı",
+        "ari",
+        "bal arısı",
+        "bal arisi",
+        "bee"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "termit",
+      "scientific_name": "Termitoidae",
+      "aliases": [
+        "termit",
+        "termite"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "peygamberdevesi",
+      "scientific_name": "Mantis religiosa",
+      "aliases": [
+        "peygamberdevesi",
+        "mantis"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "yusufçuk",
+      "scientific_name": "Anisoptera",
+      "aliases": [
+        "yusufçuk",
+        "yusufcuk",
+        "dragonfly"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ateşböceği",
+      "scientific_name": "Lampyridae",
+      "aliases": [
+        "ateşböceği",
+        "atesbocegi",
+        "firefly"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "uğur böceği",
+      "scientific_name": "Coccinellidae",
+      "aliases": [
+        "uğur böceği",
+        "ugur bocegi",
+        "ladybug"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "tarantula",
+      "scientific_name": "Theraphosidae",
+      "aliases": [
+        "tarantula"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "kırkayak",
+      "scientific_name": "Chilopoda",
+      "aliases": [
+        "kırkayak",
+        "kirkayak",
+        "centipede"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ıstakoz",
+      "scientific_name": "Homarus gammarus",
+      "aliases": [
+        "ıstakoz",
+        "istakoz",
+        "lobster"
+      ],
+      "rank": "SPECIES",
+      "broad_group": false
+    },
+    {
+      "display_name": "ayı",
+      "scientific_name": "Ursidae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "ayı",
+        "ayi",
+        "bear"
+      ]
+    },
+    {
+      "display_name": "fil",
+      "scientific_name": "Elephantidae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "fil",
+        "elephant"
+      ]
+    },
+    {
+      "display_name": "gergedan",
+      "scientific_name": "Rhinocerotidae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "gergedan",
+        "rhino",
+        "rhinoceros"
+      ]
+    },
+    {
+      "display_name": "geyik",
+      "scientific_name": "Cervidae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "geyik",
+        "deer"
+      ]
+    },
+    {
+      "display_name": "kartal",
+      "scientific_name": "Accipitridae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "kartal",
+        "eagle"
+      ]
+    },
+    {
+      "display_name": "baykuş",
+      "scientific_name": "Strigiformes",
+      "rank": "ORDER",
+      "broad_group": true,
+      "aliases": [
+        "baykuş",
+        "baykus",
+        "owl"
+      ]
+    },
+    {
+      "display_name": "karga/kuzgun",
+      "scientific_name": "Corvus",
+      "rank": "GENUS",
+      "broad_group": true,
+      "aliases": [
+        "karga",
+        "kuzgun",
+        "crow",
+        "raven"
+      ]
+    },
+    {
+      "display_name": "papağan",
+      "scientific_name": "Psittaciformes",
+      "rank": "ORDER",
+      "broad_group": true,
+      "aliases": [
+        "papağan",
+        "papagan",
+        "parrot"
+      ]
+    },
+    {
+      "display_name": "penguen",
+      "scientific_name": "Sphenisciformes",
+      "rank": "ORDER",
+      "broad_group": true,
+      "aliases": [
+        "penguen",
+        "penguin"
+      ]
+    },
+    {
+      "display_name": "karınca",
+      "scientific_name": "Formicidae",
+      "rank": "FAMILY",
+      "broad_group": true,
+      "aliases": [
+        "karınca",
+        "karinca",
+        "ant"
+      ]
+    },
+    {
+      "display_name": "kelebek/güve",
+      "scientific_name": "Lepidoptera",
+      "rank": "ORDER",
+      "broad_group": true,
+      "aliases": [
+        "kelebek",
+        "güve",
+        "guve",
+        "butterfly",
+        "moth"
+      ]
+    },
+    {
+      "display_name": "akrep",
+      "scientific_name": "Scorpiones",
+      "rank": "ORDER",
+      "broad_group": true,
+      "aliases": [
+        "akrep",
+        "scorpion"
+      ]
+    },
+    {
+      "display_name": "yengeç",
+      "scientific_name": "Brachyura",
+      "rank": "INFRAORDER",
+      "broad_group": true,
+      "aliases": [
+        "yengeç",
+        "yengec",
+        "crab"
+      ]
+    }
+  ],
+  "note": "Hızlı sözlükte genel adlar geniş takson olarak tutulur; belirli tür adı yazılmadıkça rastgele türe indirgenmez."
+}

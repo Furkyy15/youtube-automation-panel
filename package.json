@@ -1,0 +1,15 @@
+{
+  "name": "youtube-automation-panel",
+  "version": "0.18.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/smoke-test.mjs",
+    "verify-config": "node scripts/verify-config.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "openai": "^5.0.0"
+  }
+}

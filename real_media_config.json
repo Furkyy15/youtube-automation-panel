@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "layer_counts": {
+    "short": 6,
+    "long": 8,
+    "comparison": 8
+  },
+  "media_kinds": [
+    "image",
+    "video",
+    "both"
+  ],
+  "providers": {
+    "wikimedia": {
+      "supports": [
+        "image"
+      ],
+      "requires_key": false
+    },
+    "pexels": {
+      "supports": [
+        "image",
+        "video"
+      ],
+      "requires_key": true,
+      "env": "PEXELS_API_KEY"
+    },
+    "pixabay": {
+      "supports": [
+        "image",
+        "video"
+      ],
+      "requires_key": true,
+      "env": "PIXABAY_API_KEY"
+    }
+  },
+  "water_relation_actions": {
+    "marine": [
+      "underwater close-up",
+      "open water wide shot",
+      "swimming action",
+      "feeding or hunting behavior",
+      "surface interaction",
+      "detail texture"
+    ],
+    "freshwater": [
+      "shallow water action",
+      "river or lake habitat wide shot",
+      "surface movement",
+      "feeding behavior",
+      "portrait close-up",
+      "detail texture"
+    ],
+    "semi_aquatic": [
+      "waterline transition",
+      "shore movement",
+      "swimming action",
+      "feeding or hunting behavior",
+      "portrait close-up",
+      "habitat wide shot"
+    ],
+    "terrestrial": [
+      "portrait close-up",
+      "walking movement",
+      "running action",
+      "feeding or hunting behavior",
+      "alert pose",
+      "habitat wide shot"
+    ],
+    "amphibious": [
+      "water-to-land transition",
+      "portrait close-up",
+      "feeding behavior",
+      "movement action",
+      "habitat wide shot",
+      "detail texture"
+    ],
+    "aerial": [
+      "in-flight shot",
+      "perched portrait",
+      "takeoff or landing",
+      "feeding behavior",
+      "wing detail",
+      "habitat wide shot"
+    ],
+    "mixed": [
+      "portrait close-up",
+      "movement action",
+      "feeding behavior",
+      "habitat wide shot",
+      "detail texture",
+      "behavioral moment"
+    ]
+  }
+}

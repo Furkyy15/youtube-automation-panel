@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "templates": [
+    {
+      "id": "power_compare",
+      "label": "💪 Güç Karşılaştırması",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Kas gücü, boyut, çene/pençe/itme gücü, savunma ve fiziksel baskınlık ekseninde karşılaştırır.",
+      "rules": [
+        "Sahte sayısal güç puanı üretme.",
+        "Tek bir metriğe indirgeme; beden kütlesi, kas yapısı, saldırı-savar adaptasyonları ve dayanıklılığı birlikte ele al.",
+        "İlk 3 hook sahnesi güç hissini en iyi veren görsellerden seçilsin."
+      ]
+    },
+    {
+      "id": "speed_compare",
+      "label": "⚡ Hız ve Çeviklik",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Koşu, ani yön değişimi, hızlanma, manevra ve çeviklik üzerinden kıyaslar.",
+      "rules": [
+        "Kesin hız verisi yoksa tahmini rakam uydurma.",
+        "Sürat ve çevikliği ayrı kavramlar olarak ele al.",
+        "Görsellerde hareket bulanıklığı ve dinamik kadrajlar öncelikli olsun."
+      ]
+    },
+    {
+      "id": "predator_prey",
+      "label": "🎯 Avcı vs Av",
+      "formats": [
+        "comparison"
+      ],
+      "description": "Avcı ve avın algı, kaçış, gizlenme ve takip becerilerini karşılaştırır.",
+      "rules": [
+        "Gereksiz grafik şiddet kullanma.",
+        "Gerçek ekolojik ilişki zayıfsa bunu açıkça belirt ve nötr kıyas yaklaşımı kullan.",
+        "Hook sahnelerinde gerilim hissi olabilir ama kanlı saldırı şart değil."
+      ]
+    },
+    {
+      "id": "danger_compare",
+      "label": "☠️ Tehlike ve Ölümcüllük",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "İnsana veya diğer hayvanlara yönelik tehlike potansiyelini, saldırı biçimini ve risk koşullarını kıyaslar.",
+      "rules": [
+        "Sansasyonel ve doğrulanmamış ölüm istatistiği uydurma.",
+        "Tehlikeyi temas koşulları ve davranış bağlamında anlat.",
+        "Hook için tehdit hissi veren ama gerçekçi görseller seç."
+      ]
+    },
+    {
+      "id": "size_compare",
+      "label": "📏 Boyut Kıyası",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Kütle, uzunluk, yükseklik, silüet ve ölçek referanslarıyla kıyas yapar.",
+      "rules": [
+        "Oranları bozma.",
+        "Split-screen, silüet ve ölçü referansı görsellerini artır.",
+        "İlk sahnelerde ölçek şaşkınlığı hedeflenebilir."
+      ]
+    },
+    {
+      "id": "terrain_advantage",
+      "label": "🌍 Hangi Ortamda Kim Üstün?",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Ormana, açık araziye, suya, kayalığa veya gece-gündüz şartlarına göre üstünlük analizi yapar.",
+      "rules": [
+        "Biyolojik olarak mantıksız ortamlar seçme.",
+        "Aynı tür farklı ortamda farklı avantaj gösterebilir; bunu açık anlat.",
+        "Görseller ortam farkını belirgin yansıtmalı."
+      ]
+    },
+    {
+      "id": "survival_analysis",
+      "label": "🏝️ Yaşama Şansı Analizi",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Niteliksel hayatta kalma analizi yapar; yüzde vermez, risk/avantaj/zayıflık anlatır.",
+      "rules": [
+        "Sahte yaşama şansı yüzdesi verme.",
+        "Güvenli davranış ve gerçek risk faktörlerini ayrı belirt.",
+        "Hook sahneleri gerilimli olabilir ama sonuç garantisi vermemeli."
+      ]
+    },
+    {
+      "id": "hook3",
+      "label": "🔥 Hook için En Güçlü 3 Sahne",
+      "formats": [
+        "comparison",
+        "human_vs_animal"
+      ],
+      "description": "Karşılaştırmanın en dikkat çekici 3 açılış görselini öne çıkarır.",
+      "rules": [
+        "Çıktının başında açıkça HOOK İÇİN İLK 3 SAHNE bölümü ver.",
+        "Bu 3 sahne birbirinden çok farklı olmalı.",
+        "En güçlü yakın plan, hareket ve karşılaştırma karesi dengeli seçilsin."
+      ]
+    }
+  ]
+}
